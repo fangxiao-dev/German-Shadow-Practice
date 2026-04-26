@@ -20,13 +20,13 @@ The dashboard emphasizes:
 1. Rebuild dashboard data:
 
    ```powershell
-   python E:\Personal\学德语\scripts\build_shadow_dashboard.py
+   python scripts\build_shadow_dashboard.py
    ```
 
-2. Start a local server from the dashboard folder:
+2. Start a local server from the project root:
 
    ```powershell
-   python -m http.server 4173 --directory E:\Personal\学德语\dashboard
+   python -m http.server 4173 --directory dashboard
    ```
 
 3. Open:
@@ -38,13 +38,13 @@ The dashboard emphasizes:
 Run the launcher script to rebuild data, start the local server, and open the dashboard in one step:
 
 ```powershell
-pwsh -ExecutionPolicy Bypass -File E:\Personal\学德语\scripts\start_shadow_dashboard.ps1
+pwsh -ExecutionPolicy Bypass -File scripts\start_shadow_dashboard.ps1
 ```
 
 For verification or headless use, skip opening the browser:
 
 ```powershell
-pwsh -ExecutionPolicy Bypass -File E:\Personal\学德语\scripts\start_shadow_dashboard.ps1 -NoOpen
+pwsh -ExecutionPolicy Bypass -File scripts\start_shadow_dashboard.ps1 -NoOpen
 ```
 
 The page is read-only. Edit the YAML files through the workflow, then rerun the build script to refresh the dashboard.
@@ -54,7 +54,7 @@ The page is read-only. Edit the YAML files through the workflow, then rerun the 
 When you run:
 
 ```powershell
-python E:\Personal\学德语\scripts\shadow_commit.py --session E:\Personal\学德语\shadow_sessions\YYYY-MM-DD-HHMM.md
+python scripts\shadow_commit.py --session shadow_sessions\YYYY-MM-DD-HHMM.md
 ```
 
 the commit step now opens the dashboard automatically by default after writing durable state.

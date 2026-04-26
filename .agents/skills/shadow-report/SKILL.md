@@ -18,16 +18,16 @@ Use when the user says a review is finished and wants the report/update phase.
 
 ## Delegation
 
-Follow the report rules in `E:\Personal\学德语\.agents\skills\shadow-practice\SKILL.md`.
+Follow the report rules in `<project-root>\.agents\skills\shadow-practice\SKILL.md`.
 
 ## Read / Write Boundary
 
 Reads:
-- `E:\Personal\学德语\shadow_reviews\review_drafts\*.md`
-- `E:\Personal\学德语\shadow_assets\assets.yaml`
-- `E:\Personal\学德语\shadow_reviews\review_state.yaml`
+- `<project-root>\shadow_reviews\review_drafts\*.md`
+- `<project-root>\shadow_assets\assets.yaml`
+- `<project-root>\shadow_reviews\review_state.yaml`
 
 Writes:
-- `E:\Personal\学德语\shadow_reviews\review_log.md`
-- `E:\Personal\学德语\shadow_reviews\review_drafts\*.md` for the report draft and proposed updates
-- `E:\Personal\学德语\shadow_reviews\review_state.yaml` only after the user confirms the proposed bulk updates
+- `<project-root>\shadow_reviews\review_log.md`
+- `<project-root>\shadow_reviews\review_drafts\*.md` for the report draft and proposed updates
+- `<project-root>\shadow_reviews\review_state.yaml` only after the user confirms the proposed bulk updates

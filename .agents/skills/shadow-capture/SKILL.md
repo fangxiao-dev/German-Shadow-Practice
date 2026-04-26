@@ -18,16 +18,16 @@ Use when the user wants to capture a local transcript file and stage items for r
 
 ## Delegation
 
-Follow the capture rules in `E:\Personal\学德语\.agents\skills\shadow-practice\SKILL.md`.
+Follow the capture rules in `<project-root>\.agents\skills\shadow-practice\SKILL.md`.
 In particular, do not suppress duplicate user-marked items just because they already exist in the durable asset store.
 
 ## Read / Write Boundary
 
 Reads:
-- `E:\Personal\学德语\raw-transcripts\*.md`
-- `E:\Personal\学德语\shadow_assets\assets.yaml` for context only
-- `E:\Personal\学德语\shadow_reviews\review_state.yaml` for context only
+- `<project-root>\raw-transcripts\*.md`
+- `<project-root>\shadow_assets\assets.yaml` for context only
+- `<project-root>\shadow_reviews\review_state.yaml` for context only
 
 Writes:
-- `E:\Personal\学德语\shadow_sessions\*.md`
-- `E:\Personal\学德语\shadow_reviews\review_drafts\*.md` only if a draft note is useful
+- `<project-root>\shadow_sessions\*.md`
+- `<project-root>\shadow_reviews\review_drafts\*.md` only if a draft note is useful

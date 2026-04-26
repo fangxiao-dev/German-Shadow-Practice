@@ -22,13 +22,13 @@ During `shadow-commit` for `shadow_sessions/2026-04-26-1004.md`, the durable ass
 1. For commit, run the helper script first:
 
    ```powershell
-   python E:\Personal\学德语\scripts\shadow_commit.py
+   python <project-root>\scripts\shadow_commit.py
    ```
 
 2. If a session path is explicit, pass it:
 
    ```powershell
-   python E:\Personal\学德语\scripts\shadow_commit.py --session E:\Personal\学德语\shadow_sessions\YYYY-MM-DD-HHMM.md
+   python <project-root>\scripts\shadow_commit.py --session <project-root>\shadow_sessions\YYYY-MM-DD-HHMM.md
    ```
 
 3. If the command fails, identify the failing boundary before changing approach:

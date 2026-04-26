@@ -19,14 +19,14 @@ Turn pasted shadow transcripts into durable learning assets, then review them in
 Use when the user points to a local transcript file and wants the material staged for review.
 
 Reads:
-- A local transcript file, typically under `E:\Personal\学德语\raw-transcripts\`
+- A local transcript file, typically under `<project-root>\raw-transcripts\`
 - Optional existing local state for context only:
-  - `E:\Personal\学德语\shadow_assets\assets.yaml`
-  - `E:\Personal\学德语\shadow_reviews\review_state.yaml`
+  - `<project-root>\shadow_assets\assets.yaml`
+  - `<project-root>\shadow_reviews\review_state.yaml`
 
 Writes:
-- `E:\Personal\学德语\shadow_sessions\*.md`
-- `E:\Personal\学德语\shadow_reviews\review_drafts\*.md` only if a draft review note is useful
+- `<project-root>\shadow_sessions\*.md`
+- `<project-root>\shadow_reviews\review_drafts\*.md` only if a draft review note is useful
 
 Behavior:
 - Parse the transcript and must_keep list from a local source file that uses the `---`-separated input.
@@ -51,7 +51,7 @@ Behavior:
   - discourse scaffolds or paired connectors extracted from a sentence when the user's staged items already capture the main transferable content
 - Preserve user shorthand such as `adj.` when it is intentionally used as a compact study label.
 - Do not write a `note` field in staged items.
-- Write a session file under `E:\Personal\学德语\shadow_sessions\` using the stable session naming rule.
+- Write a session file under `<project-root>\shadow_sessions\` using the stable session naming rule.
 - Store the source transcript path in the session file instead of copying the full raw transcript body.
 - Do not write to the permanent asset store yet.
 - Treat the session file as the editable review document for the next step.
@@ -75,26 +75,26 @@ Edge cases:
 Use when the user says the session is reviewed and the remaining items should become durable assets.
 
 Reads:
-- `E:\Personal\学德语\shadow_sessions\*.md`
-- `E:\Personal\学德语\shadow_assets\assets.yaml`
-- `E:\Personal\学德语\shadow_reviews\review_state.yaml`
+- `<project-root>\shadow_sessions\*.md`
+- `<project-root>\shadow_assets\assets.yaml`
+- `<project-root>\shadow_reviews\review_state.yaml`
 
 Writes:
-- `E:\Personal\学德语\shadow_assets\assets.yaml`
-- `E:\Personal\学德语\shadow_reviews\review_state.yaml`
-- `E:\Personal\学德语\shadow_reviews\review_log.md` when a short commit note is needed
+- `<project-root>\shadow_assets\assets.yaml`
+- `<project-root>\shadow_reviews\review_state.yaml`
+- `<project-root>\shadow_reviews\review_log.md` when a short commit note is needed
 
 Behavior:
 - Prefer the local helper script for commit execution:
-  - `python E:\Personal\学德语\scripts\shadow_commit.py`
+  - `python <project-root>\scripts\shadow_commit.py`
   - add `--session <path>` when the user identifies a specific reviewed session
   - only fall back to manual YAML edits after investigating why the helper script is unsuitable
 - Read the session file identified by the user if an explicit session path is provided.
-- Otherwise read the latest `YYYY-MM-DD-HHMM.md` session file in `E:\Personal\学德语\shadow_sessions\` by timestamp.
+- Otherwise read the latest `YYYY-MM-DD-HHMM.md` session file in `<project-root>\shadow_sessions\` by timestamp.
 - Include every item still present in the reviewed session file, including any recommended items the user chose to keep.
 - Treat removed items in the session document as intentionally rejected.
 - Do not require a second approval pass for recommendation items that remain in the edited session.
-- For a truly new target, append a new durable record to `E:\Personal\学德语\shadow_assets\assets.yaml` and `E:\Personal\学德语\shadow_reviews\review_state.yaml`.
+- For a truly new target, append a new durable record to `<project-root>\shadow_assets\assets.yaml` and `<project-root>\shadow_reviews\review_state.yaml`.
 - For a target that already exists in the durable store, do not create a duplicate durable record.
 - Treat a repeated durable hit as a reset signal:
   - reset the existing asset's learning status back to `new`
@@ -119,12 +119,12 @@ Behavior:
 Use when the user wants an active review session over local assets.
 
 Reads:
-- `E:\Personal\学德语\shadow_assets\assets.yaml`
-- `E:\Personal\学德语\shadow_reviews\review_state.yaml`
-- `E:\Personal\学德语\shadow_reviews\review_log.md` when past review context matters
+- `<project-root>\shadow_assets\assets.yaml`
+- `<project-root>\shadow_reviews\review_state.yaml`
+- `<project-root>\shadow_reviews\review_log.md` when past review context matters
 
 Writes:
-- `E:\Personal\学德语\shadow_reviews\review_drafts\*.md`
+- `<project-root>\shadow_reviews\review_drafts\*.md`
 
 Behavior:
 - Support review scopes:
@@ -132,7 +132,7 @@ Behavior:
   - `focus`: prioritize weak items and items with high priority.
   - `full`: prioritize a broad pass over the user-specified range; if no range is specified, use all currently eligible durable assets.
 - Select items from durable state, not from chat memory.
-- Write the review result as a draft record under `E:\Personal\学德语\shadow_reviews\review_drafts\` and do not directly mutate final review state.
+- Write the review result as a draft record under `<project-root>\shadow_reviews\review_drafts\` and do not directly mutate final review state.
 - Keep the review output draft-only until the user asks for the report step.
 
 ### `report`
@@ -140,14 +140,14 @@ Behavior:
 Use when the user says the review is finished and wants a summary and update proposal.
 
 Reads:
-- `E:\Personal\学德语\shadow_reviews\review_drafts\*.md`
-- `E:\Personal\学德语\shadow_assets\assets.yaml`
-- `E:\Personal\学德语\shadow_reviews\review_state.yaml`
+- `<project-root>\shadow_reviews\review_drafts\*.md`
+- `<project-root>\shadow_assets\assets.yaml`
+- `<project-root>\shadow_reviews\review_state.yaml`
 
 Writes:
-- `E:\Personal\学德语\shadow_reviews\review_log.md`
-- `E:\Personal\学德语\shadow_reviews\review_drafts\*.md` for the report draft and proposed updates
-- `E:\Personal\学德语\shadow_reviews\review_state.yaml` only after the user confirms the proposed bulk updates
+- `<project-root>\shadow_reviews\review_log.md`
+- `<project-root>\shadow_reviews\review_drafts\*.md` for the report draft and proposed updates
+- `<project-root>\shadow_reviews\review_state.yaml` only after the user confirms the proposed bulk updates
 
 Behavior:
 - Reread the saved review draft.
@@ -211,10 +211,10 @@ Rules:
 
 - Use one session file per capture.
 - File names must follow `YYYY-MM-DD-HHMM.md`.
-- Store the file in `E:\Personal\学德语\shadow_sessions\`.
+- Store the file in `<project-root>\shadow_sessions\`.
 - Use the README in `shadow_sessions` for file-purpose conventions.
 - Session files should reference the transcript source path rather than duplicate the raw transcript body.
 
 ## Examples
 
-See `E:\Personal\学德语\.agents\skills\shadow-practice\examples.md` for realistic command examples.
+See `<project-root>\.agents\skills\shadow-practice\examples.md` for realistic command examples.

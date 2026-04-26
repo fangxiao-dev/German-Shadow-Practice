@@ -2,7 +2,7 @@
 
 ## `capture`
 
-Source file: `E:\Personal\学德语\raw-transcripts\2026-04-13-0930.md`
+Source file: `<project-root>\raw-transcripts\2026-04-13-0930.md`
 
 Content:
 
@@ -16,7 +16,7 @@ Heute geht es um die Frage, wie man im Alltag mit Unsicherheit umgeht. Ich habe 
 ```
 
 Expected behavior:
-- Read the transcript and preserve it in a local session note such as `E:\Personal\学德语\shadow_sessions\2026-04-13-0930.md`.
+- Read the transcript and preserve it in a local session note such as `<project-root>\shadow_sessions\2026-04-13-0930.md`.
 - Record the source transcript path in the session note instead of copying the full raw transcript body.
 - Treat all bullets as mandatory candidates.
 - Infer types:
@@ -32,7 +32,7 @@ Normalization example:
 - english: `name or label`
 - transcript_sentence: `Die Studie benennt drei zentrale Probleme.`
 
-Source file: `E:\Personal\学德语\raw-transcripts\2026-04-13-0945.md`
+Source file: `<project-root>\raw-transcripts\2026-04-13-0945.md`
 
 Content:
 
@@ -51,7 +51,7 @@ Expected behavior:
 - Keep the recommendations small and focused.
 - Do not promote sentence-level discourse framing into `Recommendations` when the marked items already capture the reusable content.
 
-Source file: `E:\Personal\学德语\raw-transcripts\2026-04-13-1000.md`
+Source file: `<project-root>\raw-transcripts\2026-04-13-1000.md`
 
 Content:
 
@@ -91,16 +91,16 @@ Normalization and shorthand examples:
 Input:
 
 ```text
-commit the confirmed items from E:\Personal\学德语\shadow_sessions\2026-04-13-0930.md
+commit the confirmed items from <project-root>\shadow_sessions\2026-04-13-0930.md
 ```
 
 Expected behavior:
 - Read the staged session file.
-- Promote only the confirmed items into `E:\Personal\学德语\shadow_assets\assets.yaml`.
+- Promote only the confirmed items into `<project-root>\shadow_assets\assets.yaml`.
 - Persist the staged `english` gloss into durable assets.
 - Persist the staged `transcript_sentence` into durable assets.
-- Initialize or update the corresponding review state in `E:\Personal\学德语\shadow_reviews\review_state.yaml`.
-- Append a short note to `E:\Personal\学德语\shadow_reviews\review_log.md` only if needed for traceability.
+- Initialize or update the corresponding review state in `<project-root>\shadow_reviews\review_state.yaml`.
+- Append a short note to `<project-root>\shadow_reviews\review_log.md` only if needed for traceability.
 
 Example confirmed items:
 - `mit Unsicherheit umgehen` as `phrase`
@@ -112,13 +112,13 @@ Example confirmed items:
 Input:
 
 ```text
-review incremental from E:\Personal\学德语\shadow_assets\assets.yaml and E:\Personal\学德语\shadow_reviews\review_state.yaml
+review incremental from <project-root>\shadow_assets\assets.yaml and <project-root>\shadow_reviews\review_state.yaml
 ```
 
 Expected behavior:
 - Read durable assets and current review state.
 - Select a small incremental set: new items plus a few weak items.
-- Write the session output to a draft such as `E:\Personal\学德语\shadow_reviews\review_drafts\2026-04-13-incremental.md`.
+- Write the session output to a draft such as `<project-root>\shadow_reviews\review_drafts\2026-04-13-incremental.md`.
 - Keep the review draft local and do not finalize state yet.
 
 German practice example:
@@ -131,14 +131,14 @@ German practice example:
 Input:
 
 ```text
-report after review draft E:\Personal\学德语\shadow_reviews\review_drafts\2026-04-13-incremental.md
+report after review draft <project-root>\shadow_reviews\review_drafts\2026-04-13-incremental.md
 ```
 
 Expected behavior:
 - Read the latest review draft.
 - Summarize what looked solid, what needs another pass, and any repeated mistake pattern.
-- Propose batch updates to `E:\Personal\学德语\shadow_reviews\review_state.yaml`.
-- Write the concise summary to `E:\Personal\学德语\shadow_reviews\review_log.md`.
+- Propose batch updates to `<project-root>\shadow_reviews\review_state.yaml`.
+- Write the concise summary to `<project-root>\shadow_reviews\review_log.md`.
 
 Example report content:
 - Solid: `ruhig bleiben`

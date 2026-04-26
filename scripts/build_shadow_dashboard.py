@@ -8,7 +8,7 @@ import re
 import yaml
 
 
-ROOT = Path(r"E:\Personal\学德语")
+ROOT = Path(__file__).resolve().parents[1]
 
 
 def load_yaml_list(path: Path) -> list[dict]:
@@ -202,9 +202,12 @@ def build_dashboard_data(root: Path = ROOT) -> dict:
 
         transcript_path = item["source_transcript"]
         if transcript_path:
+            transcript_file = Path(transcript_path)
+            if not transcript_file.is_absolute():
+                transcript_file = root / transcript_file
             transcript_lines = transcript_cache.setdefault(
                 transcript_path,
-                load_transcript_lines(Path(transcript_path)),
+                load_transcript_lines(transcript_file),
             )
             item["example_sentence"] = find_example_sentence(
                 transcript_lines,

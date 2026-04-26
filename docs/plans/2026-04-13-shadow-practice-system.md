@@ -13,11 +13,11 @@
 ### Task 1: Create the runtime folder structure
 
 **Files:**
-- Create: `E:\Personal\学德语\shadow_sessions\.gitkeep`
-- Create: `E:\Personal\学德语\shadow_assets\assets.yaml`
-- Create: `E:\Personal\学德语\shadow_reviews\review_state.yaml`
-- Create: `E:\Personal\学德语\shadow_reviews\review_log.md`
-- Create: `E:\Personal\学德语\shadow_reviews\review_drafts\.gitkeep`
+- Create: `<project-root>\shadow_sessions\.gitkeep`
+- Create: `<project-root>\shadow_assets\assets.yaml`
+- Create: `<project-root>\shadow_reviews\review_state.yaml`
+- Create: `<project-root>\shadow_reviews\review_log.md`
+- Create: `<project-root>\shadow_reviews\review_drafts\.gitkeep`
 
 **Step 1: Create the directories and placeholder files**
 
@@ -25,7 +25,7 @@ Create the folder tree and initial empty markdown files with short headers descr
 
 **Step 2: Verify the structure exists**
 
-Run: `Get-ChildItem -Recurse 'E:\Personal\学德语\shadow_*'`
+Run: `Get-ChildItem -Recurse '<project-root>\shadow_*'`
 Expected: the four top-level directories/files appear in the correct locations.
 
 **Step 3: Add minimal file headers**
@@ -34,7 +34,7 @@ Write short file headers so later agent turns can infer each file's purpose with
 
 **Step 4: Verify the files are readable**
 
-Run: `Get-Content 'E:\Personal\学德语\shadow_assets\assets.yaml'`
+Run: `Get-Content '<project-root>\shadow_assets\assets.yaml'`
 Expected: header text renders and file is not empty.
 
 **Step 5: Commit**
@@ -47,8 +47,8 @@ git commit -m "chore: initialize shadow practice runtime files"
 ### Task 2: Create the shadow-practice skill scaffold
 
 **Files:**
-- Create: `E:\Personal\学德语\.agents\skills\shadow-practice\SKILL.md`
-- Create: `E:\Personal\学德语\.agents\skills\shadow-practice\examples.md`
+- Create: `<project-root>\.agents\skills\shadow-practice\SKILL.md`
+- Create: `<project-root>\.agents\skills\shadow-practice\examples.md`
 
 **Step 1: Write the skill contract**
 
@@ -81,7 +81,7 @@ Write concrete examples for all four commands using local file paths and realist
 
 **Step 4: Verify the skill file is readable**
 
-Run: `Get-Content 'E:\Personal\学德语\.agents\skills\shadow-practice\SKILL.md'`
+Run: `Get-Content '<project-root>\.agents\skills\shadow-practice\SKILL.md'`
 Expected: the command contract and file-boundary rules are present.
 
 **Step 5: Commit**
@@ -94,9 +94,9 @@ git commit -m "feat: add shadow practice skill scaffold"
 ### Task 3: Define the asset and review schemas
 
 **Files:**
-- Modify: `E:\Personal\学德语\shadow_assets\assets.yaml`
-- Modify: `E:\Personal\学德语\shadow_reviews\review_state.yaml`
-- Modify: `E:\Personal\学德语\shadow_reviews\review_log.md`
+- Modify: `<project-root>\shadow_assets\assets.yaml`
+- Modify: `<project-root>\shadow_reviews\review_state.yaml`
+- Modify: `<project-root>\shadow_reviews\review_log.md`
 
 **Step 1: Write the asset schema**
 
@@ -131,7 +131,7 @@ Define what a draft review file must contain and how final report outcomes shoul
 
 **Step 4: Verify the conventions are explicit**
 
-Run: `Get-Content 'E:\Personal\学德语\shadow_reviews\review_state.yaml'`
+Run: `Get-Content '<project-root>\shadow_reviews\review_state.yaml'`
 Expected: a future agent can infer how to update state without inventing a format.
 
 **Step 5: Commit**
@@ -144,8 +144,8 @@ git commit -m "docs: define shadow asset and review schemas"
 ### Task 4: Specify the capture and commit behavior
 
 **Files:**
-- Modify: `E:\Personal\学德语\.agents\skills\shadow-practice\SKILL.md`
-- Create: `E:\Personal\学德语\shadow_sessions\README.md`
+- Modify: `<project-root>\.agents\skills\shadow-practice\SKILL.md`
+- Create: `<project-root>\shadow_sessions\README.md`
 
 **Step 1: Write capture behavior**
 
@@ -175,7 +175,7 @@ Document a stable naming pattern such as `YYYY-MM-DD-HHMM.md`.
 
 **Step 4: Verify capture/commit boundary clarity**
 
-Run: `Select-String -Path 'E:\Personal\学德语\.agents\skills\shadow-practice\SKILL.md' -Pattern 'capture|commit'`
+Run: `Select-String -Path '<project-root>\.agents\skills\shadow-practice\SKILL.md' -Pattern 'capture|commit'`
 Expected: both commands mention what they can and cannot write.
 
 **Step 5: Commit**
@@ -188,8 +188,8 @@ git commit -m "docs: define capture and commit workflow boundaries"
 ### Task 5: Specify the review and report behavior
 
 **Files:**
-- Modify: `E:\Personal\学德语\.agents\skills\shadow-practice\SKILL.md`
-- Create: `E:\Personal\学德语\shadow_reviews\README.md`
+- Modify: `<project-root>\.agents\skills\shadow-practice\SKILL.md`
+- Create: `<project-root>\shadow_reviews\README.md`
 
 **Step 1: Write review scope rules**
 
@@ -218,7 +218,7 @@ State that `report` must:
 
 **Step 4: Verify the report flow**
 
-Run: `Get-Content 'E:\Personal\学德语\shadow_reviews\README.md'`
+Run: `Get-Content '<project-root>\shadow_reviews\README.md'`
 Expected: the draft/report confirmation-update lifecycle is explicit and unambiguous.
 
 **Step 5: Commit**
@@ -231,8 +231,8 @@ git commit -m "docs: define review and report lifecycle"
 ### Task 6: Add examples and edge-case rules
 
 **Files:**
-- Modify: `E:\Personal\学德语\.agents\skills\shadow-practice\examples.md`
-- Modify: `E:\Personal\学德语\.agents\skills\shadow-practice\SKILL.md`
+- Modify: `<project-root>\.agents\skills\shadow-practice\examples.md`
+- Modify: `<project-root>\.agents\skills\shadow-practice\SKILL.md`
 
 **Step 1: Add example capture sessions**
 
@@ -256,7 +256,7 @@ State that ambiguous items default to `phrase`, and that abstract usage advice s
 
 **Step 4: Verify examples are actionable**
 
-Run: `Get-Content 'E:\Personal\学德语\.agents\skills\shadow-practice\examples.md'`
+Run: `Get-Content '<project-root>\.agents\skills\shadow-practice\examples.md'`
 Expected: a future agent can imitate the examples without guessing missing steps.
 
 **Step 5: Commit**
@@ -269,11 +269,11 @@ git commit -m "docs: add examples and edge-case rules for shadow practice"
 ### Task 7: Validate the documentation from a cold start
 
 **Files:**
-- Review only: `E:\Personal\学德语\docs\designs\shadow-practice-system.md`
-- Review only: `E:\Personal\学德语\docs\plans\2026-04-13-shadow-practice-system.md`
-- Review only: `E:\Personal\学德语\.agents\skills\shadow-practice\SKILL.md`
-- Review only: `E:\Personal\学德语\shadow_assets\assets.yaml`
-- Review only: `E:\Personal\学德语\shadow_reviews\review_state.yaml`
+- Review only: `<project-root>\docs\designs\shadow-practice-system.md`
+- Review only: `<project-root>\docs\plans\2026-04-13-shadow-practice-system.md`
+- Review only: `<project-root>\.agents\skills\shadow-practice\SKILL.md`
+- Review only: `<project-root>\shadow_assets\assets.yaml`
+- Review only: `<project-root>\shadow_reviews\review_state.yaml`
 
 **Step 1: Read the system from scratch**
 

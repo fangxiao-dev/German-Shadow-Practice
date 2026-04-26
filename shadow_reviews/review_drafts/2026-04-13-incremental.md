@@ -1,7 +1,7 @@
 # Incremental Review Draft
 
-- source_assets: `E:\Personal\学德语\shadow_assets\assets.yaml`
-- source_state: `E:\Personal\学德语\shadow_reviews\review_state.yaml`
+- source_assets: `shadow_assets\assets.yaml`
+- source_state: `shadow_reviews\review_state.yaml`
 - session_date: `2026-04-13`
 - scope: `incremental`
 - status: `draft`

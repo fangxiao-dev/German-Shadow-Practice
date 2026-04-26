@@ -13,7 +13,7 @@ import webbrowser
 import yaml
 
 
-DEFAULT_ROOT = Path(r"E:\Personal\学德语")
+DEFAULT_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DASHBOARD_PORT = 4173
 SESSION_SECTIONS = {
     "Must Keep Candidates",

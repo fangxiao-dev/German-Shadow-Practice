@@ -18,14 +18,14 @@ Use when the user wants a review session such as incremental, focus, or full.
 
 ## Delegation
 
-Follow the review rules in `E:\Personal\学德语\.agents\skills\shadow-practice\SKILL.md`.
+Follow the review rules in `<project-root>\.agents\skills\shadow-practice\SKILL.md`.
 
 ## Read / Write Boundary
 
 Reads:
-- `E:\Personal\学德语\shadow_assets\assets.yaml`
-- `E:\Personal\学德语\shadow_reviews\review_state.yaml`
-- `E:\Personal\学德语\shadow_reviews\review_log.md` when past review context matters
+- `<project-root>\shadow_assets\assets.yaml`
+- `<project-root>\shadow_reviews\review_state.yaml`
+- `<project-root>\shadow_reviews\review_log.md` when past review context matters
 
 Writes:
-- `E:\Personal\学德语\shadow_reviews\review_drafts\*.md`
+- `<project-root>\shadow_reviews\review_drafts\*.md`

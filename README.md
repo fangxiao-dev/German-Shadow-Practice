@@ -51,7 +51,7 @@ The transcript body is the source of context. The bullets after `---` are user-m
 Use the `shadow-capture` skill with a transcript file:
 
 ```text
-[$shadow-capture](E:\Personal\学德语\.agents\skills\shadow-capture\SKILL.md) [260426.md](raw-transcripts/260426.md)
+[$shadow-capture](.agents/skills/shadow-capture/SKILL.md) [260426.md](raw-transcripts/260426.md)
 ```
 
 Capture writes a session file under `shadow_sessions/YYYY-MM-DD-HHMM.md`. The session file is intentionally editable: remove candidates you do not want, keep recommendations you accept, and adjust wording before commit.
@@ -61,19 +61,19 @@ Capture writes a session file under `shadow_sessions/YYYY-MM-DD-HHMM.md`. The se
 Use the `shadow-commit` skill after the session file has been reviewed:
 
 ```text
-[$shadow-commit](E:\Personal\学德语\.agents\skills\shadow-commit\SKILL.md)
+[$shadow-commit](.agents/skills/shadow-commit/SKILL.md)
 ```
 
-The preferred executable path is the helper script:
+From the project root, the preferred executable path is the helper script:
 
 ```powershell
-python E:\Personal\学德语\scripts\shadow_commit.py
+python scripts\shadow_commit.py
 ```
 
 For an explicit session:
 
 ```powershell
-python E:\Personal\学德语\scripts\shadow_commit.py --session E:\Personal\学德语\shadow_sessions\YYYY-MM-DD-HHMM.md
+python scripts\shadow_commit.py --session shadow_sessions\YYYY-MM-DD-HHMM.md
 ```
 
 Commit behavior:
@@ -93,14 +93,14 @@ The dashboard is a read-only browser view over committed assets.
 One-step launcher:
 
 ```powershell
-pwsh -ExecutionPolicy Bypass -File E:\Personal\学德语\scripts\start_shadow_dashboard.ps1
+pwsh -ExecutionPolicy Bypass -File scripts\start_shadow_dashboard.ps1
 ```
 
 Manual rebuild and serve:
 
 ```powershell
-python E:\Personal\学德语\scripts\build_shadow_dashboard.py
-python -m http.server 4173 --directory E:\Personal\学德语\dashboard
+python scripts\build_shadow_dashboard.py
+python -m http.server 4173 --directory dashboard
 ```
 
 Then open:

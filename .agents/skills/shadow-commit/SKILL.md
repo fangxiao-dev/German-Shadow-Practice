@@ -18,14 +18,14 @@ Use when the user says the session has been reviewed and the remaining items can
 
 ## Delegation
 
-Follow the commit rules in `E:\Personal\学德语\.agents\skills\shadow-practice\SKILL.md`.
+Follow the commit rules in `<project-root>\.agents\skills\shadow-practice\SKILL.md`.
 
 ## Preferred Execution Path
 
 Use the local helper script first instead of manually editing YAML:
 
 ```powershell
-python E:\Personal\学德语\scripts\shadow_commit.py
+python <project-root>\scripts\shadow_commit.py
 ```
 
 Rules:
@@ -47,11 +47,11 @@ If the helper script or dashboard follow-up fails:
 ## Read / Write Boundary
 
 Reads:
-- `E:\Personal\学德语\shadow_sessions\*.md`
-- `E:\Personal\学德语\shadow_assets\assets.yaml`
-- `E:\Personal\学德语\shadow_reviews\review_state.yaml`
+- `<project-root>\shadow_sessions\*.md`
+- `<project-root>\shadow_assets\assets.yaml`
+- `<project-root>\shadow_reviews\review_state.yaml`
 
 Writes:
-- `E:\Personal\学德语\shadow_assets\assets.yaml`
-- `E:\Personal\学德语\shadow_reviews\review_state.yaml`
-- `E:\Personal\学德语\shadow_reviews\review_log.md` when a short commit note is needed
+- `<project-root>\shadow_assets\assets.yaml`
+- `<project-root>\shadow_reviews\review_state.yaml`
+- `<project-root>\shadow_reviews\review_log.md` when a short commit note is needed
