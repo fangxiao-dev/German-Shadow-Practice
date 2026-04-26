@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shadow Assets Dashboard</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" id="dashboard-stylesheet" href="./styles.css" />
+    <script id="dashboard-render-utils" src="./render-utils.js"></script>
+    <script>
+      (function () {
+        const version = new URLSearchParams(window.location.search).get("v");
+        if (!version) return;
+
+        const stylesheet = document.getElementById("dashboard-stylesheet");
+        if (stylesheet) {
+          stylesheet.href = `./styles.css?v=${encodeURIComponent(version)}`;
+        }
+
+        const renderUtils = document.getElementById("dashboard-render-utils");
+        if (renderUtils) {
+          renderUtils.src = `./render-utils.js?v=${encodeURIComponent(version)}`;
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div class="grain"></div>
+    <main class="shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Shadow Practice</p>
+          <h1>Asset Ledger</h1>
+          <p class="hero-text">
+            A compact local dashboard for recent additions and weekly grouped
+            shadow assets.
+          </p>
+        </div>
+        <section class="summary-panel" id="summary-panel">
+          <div class="summary-cards">
+            <div class="summary-card">
+              <span class="summary-label">Total</span>
+              <strong id="total-items">0</strong>
+            </div>
+            <div class="summary-card">
+              <span class="summary-label">Newest</span>
+              <strong id="latest-date">-</strong>
+            </div>
+          </div>
+          <p class="summary-meta">Generated <span id="generated-at">-</span></p>
+        </section>
+      </header>
+
+      <section class="panel recent-panel">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Recent Additions</p>
+            <h2>Latest committed items</h2>
+          </div>
+          <div class="legend" id="type-legend"></div>
+        </div>
+        <div class="filter-panel" aria-label="Filters">
+          <div class="filter-group" id="type-filter-group">
+            <span class="filter-label">Type</span>
+            <div class="filter-chips" id="type-filters"></div>
+          </div>
+          <div class="filter-group" id="status-filter-group">
+            <span class="filter-label">Status</span>
+            <div class="filter-chips" id="status-filters"></div>
+          </div>
+          <button class="reset-filters" id="reset-filters" type="button">Reset</button>
+        </div>
+        <div class="table-shell">
+          <table class="asset-table" id="recent-table">
+            <thead>
+              <tr>
+                <th>Target</th>
+                <th>English</th>
+                <th>Type</th>
+                <th>Status</th>
+                <th>Transcript sentence</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="panel weekly-panel">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Weekly Archive</p>
+            <h2>All assets by ISO week</h2>
+          </div>
+          <p class="panel-note">Default collapsed. Expand only when needed.</p>
+        </div>
+        <div id="weekly-groups" class="weekly-groups"></div>
+      </section>
+    </main>
+
+    <template id="row-template">
+      <tr>
+        <td class="target-cell">
+          <span class="target-text"></span>
+          <span class="collocation-text" hidden></span>
+          <span class="reset-hint" hidden></span>
+        </td>
+        <td class="english-cell"></td>
+        <td><span class="pill type-pill"></span></td>
+        <td><span class="pill status-pill"></span></td>
+        <td class="example-cell"></td>
+      </tr>
+    </template>
+
+    <script>
+      (function () {
+        const version = new URLSearchParams(window.location.search).get("v");
+        const script = document.createElement("script");
+        script.defer = true;
+        script.src = version
+          ? `./app.js?v=${encodeURIComponent(version)}`
+          : "./app.js";
+        document.body.appendChild(script);
+      })();
+    </script>
+  </body>
+</html>
