@@ -95,14 +95,15 @@
   title: dementsprechend
   content: dementsprechend
   english: accordingly
-  transcript_sentence: Du kannst sehr schnell Umsätze machen und dementsprechend kriegen
-    die Investoren auch schneller ihr Geld wieder.
-  source_session: shadow_sessions/2026-04-13-1215.md
+  transcript_sentence: Aber wenn man jetzt wirklich von ein paar hundert Kilometer
+    weit entfernt reinfliegen würde oder auch so regionale Mobilität, da wird es erstmal
+    noch Treibstoffe brauchen und dementsprechend auch Triebwerke wie unsere.
+  source_session: shadow_sessions/2026-04-29-1123.md
   created_at: '2026-04-13'
   status: new
   priority: normal
   review_count: 0
-  reset_count: 0
+  reset_count: 1
   last_reviewed_at: null
   mistake_note: null
 - id: a-2026-04-13-008
@@ -976,16 +977,17 @@
   type: word
   title: erreichbar
   content: erreichbar
-  english: reachable
-  transcript_sentence: Mit Drohnen wären solche Gebiete aber erreichbar und auch günstiger
-    als mit Helikoptern.
+  english: achievable
+  transcript_sentence: Aber dieser Boom, dieser Hype, der hat sich in den letzten
+    ein, zwei Jahren so ein bisschen abgekühlt, weil sich doch zeigt, dass mit Batterien
+    die Anforderungen noch nicht ganz erreichbar sind.
   collocation: ''
-  source_session: shadow_sessions/2026-04-21-1000.md
+  source_session: shadow_sessions/2026-04-29-1123.md
   created_at: '2026-04-21'
   status: new
   priority: normal
   review_count: 0
-  reset_count: 0
+  reset_count: 1
   last_reviewed_at: null
   mistake_note: null
 - id: a-2026-04-21-065
@@ -1160,6 +1162,268 @@
   collocation: sogenannte Vertiports
   source_session: shadow_sessions/2026-04-26-1004.md
   created_at: '2026-04-26'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-29-076
+  type: phrase
+  title: die allermeisten
+  content: die allermeisten
+  english: the vast majority
+  transcript_sentence: Die allermeisten Konzepte von heute sind noch rein elektrisch,
+    batterieelektrisch.
+  collocation: ''
+  source_session: shadow_sessions/2026-04-29-1123.md
+  created_at: '2026-04-29'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-29-077
+  type: word
+  title: vorsehen
+  content: vorsehen
+  english: envisage
+  transcript_sentence: Es gibt einige wenige, die sehen Wasserstoff mit Brennstoffzelle
+    vor, die dann die Elektromotoren antreiben würden.
+  collocation: Wasserstoff mit Brennstoffzelle vorsehen
+  source_session: shadow_sessions/2026-04-29-1123.md
+  created_at: '2026-04-29'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-29-078
+  type: word
+  title: sich abkühlen
+  content: sich abkühlen
+  english: cool off
+  transcript_sentence: Aber dieser Boom, dieser Hype, der hat sich in den letzten
+    ein, zwei Jahren so ein bisschen abgekühlt, weil sich doch zeigt, dass mit Batterien
+    die Anforderungen noch nicht ganz erreichbar sind.
+  collocation: der Hype hat sich abgekühlt
+  source_session: shadow_sessions/2026-04-29-1123.md
+  created_at: '2026-04-29'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-29-079
+  type: word
+  title: innerstädtisch
+  content: innerstädtisch
+  english: within the city
+  transcript_sentence: Das klappt wahrscheinlich für innerstädtische Flüge oder vielleicht
+    in die ganz dichten Randgebiete.
+  collocation: innerstädtische Flüge
+  source_session: shadow_sessions/2026-04-29-1123.md
+  created_at: '2026-04-29'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-29-080
+  type: pattern
+  title: von ... weit entfernt
+  content: von ... weit entfernt
+  english: far away from ...
+  transcript_sentence: Aber wenn man jetzt wirklich von ein paar hundert Kilometer
+    weit entfernt reinfliegen würde oder auch so regionale Mobilität, da wird es erstmal
+    noch Treibstoffe brauchen und dementsprechend auch Triebwerke wie unsere.
+  collocation: ''
+  source_session: shadow_sessions/2026-04-29-1123.md
+  created_at: '2026-04-29'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-29-081
+  type: word
+  title: Treibstoff
+  content: Treibstoff
+  english: fuel
+  transcript_sentence: Aber wenn man jetzt wirklich von ein paar hundert Kilometer
+    weit entfernt reinfliegen würde oder auch so regionale Mobilität, da wird es erstmal
+    noch Treibstoffe brauchen und dementsprechend auch Triebwerke wie unsere.
+  collocation: ''
+  source_session: shadow_sessions/2026-04-29-1123.md
+  created_at: '2026-04-29'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-29-082
+  type: word
+  title: Gesetzgebung
+  content: Gesetzgebung
+  english: legislation
+  transcript_sentence: Ja, und dann hängt es wahrscheinlich auch an der Gesetzgebung,
+    ne?
+  collocation: ''
+  source_session: shadow_sessions/2026-04-29-1123.md
+  created_at: '2026-04-29'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-29-083
+  type: phrase
+  title: an sich
+  content: an sich
+  english: in itself
+  transcript_sentence: Es ist eine politische Entscheidung, ob man das zulassen möchte,
+    selbst wenn es rein regulatorisch an sich möglich wäre.
+  collocation: ''
+  source_session: shadow_sessions/2026-04-29-1123.md
+  created_at: '2026-04-29'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-29-084
+  type: pattern
+  title: Was würde dagegen sprechen?
+  content: Was würde dagegen sprechen?
+  english: What would speak against it?
+  transcript_sentence: Was würde dagegen sprechen?
+  collocation: ''
+  source_session: shadow_sessions/2026-04-29-1123.md
+  created_at: '2026-04-29'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-29-085
+  type: phrase
+  title: als unangenehm empfinden
+  content: als unangenehm empfinden
+  english: find unpleasant
+  transcript_sentence: Die Stadt sieht das wohl so, dass oder Menschen, einige Menschen
+    würden es vielleicht auch als unangenehm empfinden, wenn so viele Drohnen, gerade
+    laute, große Drohnen über die Köpfe fliegen.
+  collocation: ''
+  source_session: shadow_sessions/2026-04-29-1123.md
+  created_at: '2026-04-29'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-29-086
+  type: pattern
+  title: Da bin ich mir nicht so sicher
+  content: Da bin ich mir nicht so sicher
+  english: I'm not so sure about that
+  transcript_sentence: Da bin ich mir aber nicht so sicher, ob das etwas ist, was
+    Menschen wirklich langfristig stört oder ob es etwas ist, an das man sich gewöhnen
+    würde.
+  collocation: ''
+  source_session: shadow_sessions/2026-04-29-1123.md
+  created_at: '2026-04-29'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-29-087
+  type: word
+  title: stören
+  content: stören
+  english: bother
+  transcript_sentence: Da bin ich mir aber nicht so sicher, ob das etwas ist, was
+    Menschen wirklich langfristig stört oder ob es etwas ist, an das man sich gewöhnen
+    würde.
+  collocation: ''
+  source_session: shadow_sessions/2026-04-29-1123.md
+  created_at: '2026-04-29'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-29-088
+  type: pattern
+  title: sich an etw. gewöhnen
+  content: sich an etw. gewöhnen
+  english: get used to something
+  transcript_sentence: Da bin ich mir aber nicht so sicher, ob das etwas ist, was
+    Menschen wirklich langfristig stört oder ob es etwas ist, an das man sich gewöhnen
+    würde.
+  collocation: ''
+  source_session: shadow_sessions/2026-04-29-1123.md
+  created_at: '2026-04-29'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-29-089
+  type: phrase
+  title: genauso wie
+  content: genauso wie
+  english: just like
+  transcript_sentence: Genauso wie wir heute viele Autos haben, die durch die Straßen
+    fahren.
+  collocation: ''
+  source_session: shadow_sessions/2026-04-29-1123.md
+  created_at: '2026-04-29'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-29-090
+  type: word
+  title: Ärgernis
+  content: Ärgernis
+  english: nuisance
+  transcript_sentence: Für Menschen vor 100 Jahren wäre das wahrscheinlich ein Ärgernis
+    oder unangenehm.
+  collocation: ''
+  source_session: shadow_sessions/2026-04-29-1123.md
+  created_at: '2026-04-29'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-29-091
+  type: word
+  title: Brennstoffzelle
+  content: Brennstoffzelle
+  english: fuel cell
+  transcript_sentence: Es gibt einige wenige, die sehen Wasserstoff mit Brennstoffzelle
+    vor, die dann die Elektromotoren antreiben würden.
+  collocation: Wasserstoff mit Brennstoffzelle
+  source_session: shadow_sessions/2026-04-29-1123.md
+  created_at: '2026-04-29'
   status: new
   priority: normal
   review_count: 0

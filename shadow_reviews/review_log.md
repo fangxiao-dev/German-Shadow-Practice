@@ -48,3 +48,10 @@ Committed the reviewed items from `shadow_sessions/2026-04-26-1004.md` into the 
 
 - Added 5 new assets with `status: new`
 - Reset 0 existing assets
+
+## 2026-04-29 commit
+
+Committed the reviewed items from `shadow_sessions/2026-04-29-1123.md` into the durable asset store.
+
+- Added 16 new assets with `status: new`
+- Reset 2 existing assets to `new` after repeated capture hits

@@ -44,7 +44,7 @@
   status: new
   priority: normal
   review_count: 0
-  reset_count: 0
+  reset_count: 1
   last_reviewed_at: null
   mistake_note: null
 - id: a-2026-04-13-008
@@ -443,7 +443,7 @@
   status: new
   priority: normal
   review_count: 0
-  reset_count: 0
+  reset_count: 1
   last_reviewed_at: null
   mistake_note: null
 - id: a-2026-04-21-065
@@ -517,6 +517,118 @@
   last_reviewed_at: null
   mistake_note: null
 - id: a-2026-04-26-075
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-29-076
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-29-077
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-29-078
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-29-079
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-29-080
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-29-081
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-29-082
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-29-083
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-29-084
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-29-085
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-29-086
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-29-087
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-29-088
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-29-089
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-29-090
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-29-091
   status: new
   priority: normal
   review_count: 0
