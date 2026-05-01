@@ -1430,3 +1430,276 @@
   reset_count: 0
   last_reviewed_at: null
   mistake_note: null
+- id: a-2026-04-30-092
+  type: pattern
+  title: Was findest du, sollte sich da noch tun?
+  content: Was findest du, sollte sich da noch tun?
+  english: What do you think still needs to happen?
+  transcript_sentence: Wenn wir jetzt bei Gesetzen sind, was findest du, sollte sich
+    da noch tun, damit es vielleicht leichter ermöglicht wird, auch Transporte durch
+    Drohnen umzusetzen?
+  collocation: ''
+  source_session: shadow_sessions/2026-04-30-0830.md
+  created_at: '2026-04-30'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-30-093
+  type: phrase
+  title: im Wege stehen
+  content: im Wege stehen
+  english: stand in the way
+  transcript_sentence: Was steht da momentan noch im Wege oder was ist da besonders
+    wichtig?
+  collocation: ''
+  source_session: shadow_sessions/2026-04-30-0830.md
+  created_at: '2026-04-30'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-30-094
+  type: word
+  title: restriktiv
+  content: restriktiv
+  english: restrictive
+  transcript_sentence: Also zum einen sind die Gesetze noch teilweise sehr restriktiv
+    und ganz kleine Drohnen müssen die gleichen Anforderungen erfüllen wie große Passagierflugzeuge,
+    wobei, wenn das eine abstürzt, ist es nicht annähernd so dramatisch, wie wenn
+    das andere abstürzt.
+  collocation: ''
+  source_session: shadow_sessions/2026-04-30-0830.md
+  created_at: '2026-04-30'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-30-095
+  type: phrase
+  title: Anforderungen erfüllen
+  content: Anforderungen erfüllen
+  english: meet requirements
+  transcript_sentence: Also zum einen sind die Gesetze noch teilweise sehr restriktiv
+    und ganz kleine Drohnen müssen die gleichen Anforderungen erfüllen wie große Passagierflugzeuge,
+    wobei, wenn das eine abstürzt, ist es nicht annähernd so dramatisch, wie wenn
+    das andere abstürzt.
+  collocation: ''
+  source_session: shadow_sessions/2026-04-30-0830.md
+  created_at: '2026-04-30'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-30-096
+  type: word
+  title: annähernd
+  content: annähernd
+  english: nearly
+  transcript_sentence: Also zum einen sind die Gesetze noch teilweise sehr restriktiv
+    und ganz kleine Drohnen müssen die gleichen Anforderungen erfüllen wie große Passagierflugzeuge,
+    wobei, wenn das eine abstürzt, ist es nicht annähernd so dramatisch, wie wenn
+    das andere abstürzt.
+  collocation: nicht annähernd so dramatisch
+  source_session: shadow_sessions/2026-04-30-0830.md
+  created_at: '2026-04-30'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-30-097
+  type: phrase
+  title: den Gegebenheiten angepasst werden
+  content: den Gegebenheiten angepasst werden
+  english: be adapted to the circumstances
+  transcript_sentence: Das muss dann noch eher den Gegebenheiten angepasst werden.
+  collocation: ''
+  source_session: shadow_sessions/2026-04-30-0830.md
+  created_at: '2026-04-30'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-30-098
+  type: word
+  title: Umständlichkeit
+  content: Umständlichkeit
+  english: cumbersomeness
+  transcript_sentence: Das Zweite ist die Dauer und die Umständlichkeit der Genehmigungsverfahren.
+  collocation: die Dauer und die Umständlichkeit
+  source_session: shadow_sessions/2026-04-30-0830.md
+  created_at: '2026-04-30'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-30-099
+  type: phrase
+  title: auf Dauer
+  content: auf Dauer
+  english: in the long run
+  transcript_sentence: Da kann man hoffen, dass es dann auf Dauer schneller geht.
+  collocation: ''
+  source_session: shadow_sessions/2026-04-30-0830.md
+  created_at: '2026-04-30'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-30-100
+  type: word
+  title: eingespielt
+  content: eingespielt
+  english: well-established
+  transcript_sentence: Wenn die Behörden da eingespieltere Prozesse haben, aber jetzt
+    dauert es eben noch recht lange.
+  collocation: eingespieltere Prozesse
+  source_session: shadow_sessions/2026-04-30-0830.md
+  created_at: '2026-04-30'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-30-101
+  type: pattern
+  title: auf etw. beruhen
+  content: auf etw. beruhen
+  english: be based on something
+  transcript_sentence: Und dann sehe ich auch so ein bisschen das Problem, dass man
+    noch ein bisschen auf einem alten System beruht, wo nicht alle Flugzeuge automatisch
+    erfasst werden, wo der Flugraum selber nicht automatisch zugeteilt wird, sondern
+    das ist alles noch recht manuell und aufgeteilt und die Standards der Erkennungssysteme
+    zwischen den Flugzeugen und den Towern und so weiter, die sind nicht einheitlich.
+  collocation: auf einem alten System beruhen
+  source_session: shadow_sessions/2026-04-30-0830.md
+  created_at: '2026-04-30'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-30-102
+  type: word
+  title: zuteilen
+  content: zuteilen
+  english: assign
+  transcript_sentence: Und dann sehe ich auch so ein bisschen das Problem, dass man
+    noch ein bisschen auf einem alten System beruht, wo nicht alle Flugzeuge automatisch
+    erfasst werden, wo der Flugraum selber nicht automatisch zugeteilt wird, sondern
+    das ist alles noch recht manuell und aufgeteilt und die Standards der Erkennungssysteme
+    zwischen den Flugzeugen und den Towern und so weiter, die sind nicht einheitlich.
+  collocation: der Flugraum wird zugeteilt
+  source_session: shadow_sessions/2026-04-30-0830.md
+  created_at: '2026-04-30'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-30-103
+  type: word
+  title: aufteilen
+  content: aufteilen
+  english: divide up
+  transcript_sentence: Und dann sehe ich auch so ein bisschen das Problem, dass man
+    noch ein bisschen auf einem alten System beruht, wo nicht alle Flugzeuge automatisch
+    erfasst werden, wo der Flugraum selber nicht automatisch zugeteilt wird, sondern
+    das ist alles noch recht manuell und aufgeteilt und die Standards der Erkennungssysteme
+    zwischen den Flugzeugen und den Towern und so weiter, die sind nicht einheitlich.
+  collocation: den Luftraum aufteilen
+  source_session: shadow_sessions/2026-04-30-0830.md
+  created_at: '2026-04-30'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-30-104
+  type: word
+  title: einheitlich
+  content: einheitlich
+  english: uniform
+  transcript_sentence: Und dann sehe ich auch so ein bisschen das Problem, dass man
+    noch ein bisschen auf einem alten System beruht, wo nicht alle Flugzeuge automatisch
+    erfasst werden, wo der Flugraum selber nicht automatisch zugeteilt wird, sondern
+    das ist alles noch recht manuell und aufgeteilt und die Standards der Erkennungssysteme
+    zwischen den Flugzeugen und den Towern und so weiter, die sind nicht einheitlich.
+  collocation: ''
+  source_session: shadow_sessions/2026-04-30-0830.md
+  created_at: '2026-04-30'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-30-105
+  type: pattern
+  title: wo welches Flugzeug sich wie bewegt
+  content: wo welches Flugzeug sich wie bewegt
+  english: where each aircraft is moving and how
+  transcript_sentence: Wenn da alle die gleichen Systeme hätten und man genau wüsste,
+    wo welches Flugzeug sich jetzt wie bewegt, Dann könnte man auch den Luftraum besser
+    aufteilen oder mehr parallel ermöglichen.
+  collocation: ''
+  source_session: shadow_sessions/2026-04-30-0830.md
+  created_at: '2026-04-30'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-30-106
+  type: word
+  title: Genehmigungsverfahren
+  content: Genehmigungsverfahren
+  english: approval procedure
+  transcript_sentence: Das Zweite ist die Dauer und die Umständlichkeit der Genehmigungsverfahren.
+  collocation: ''
+  source_session: shadow_sessions/2026-04-30-0830.md
+  created_at: '2026-04-30'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-04-30-107
+  type: word
+  title: Luftraum
+  content: Luftraum
+  english: airspace
+  transcript_sentence: Wenn da alle die gleichen Systeme hätten und man genau wüsste,
+    wo welches Flugzeug sich jetzt wie bewegt, Dann könnte man auch den Luftraum besser
+    aufteilen oder mehr parallel ermöglichen.
+  collocation: den Luftraum besser aufteilen
+  source_session: shadow_sessions/2026-04-30-0830.md
+  created_at: '2026-04-30'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
