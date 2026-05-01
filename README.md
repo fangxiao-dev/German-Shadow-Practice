@@ -4,6 +4,8 @@ This repository is a local-first workflow for turning German shadowing transcrip
 
 The goal is not to build a full study app. The goal is to preserve useful phrases, words, and reusable speaking patterns from real listening material, then review them in a controlled loop without losing the original transcript context.
 
+![German study activity](assets/chart.svg)
+
 ## Project Intent
 
 The workflow supports four recurring jobs:
