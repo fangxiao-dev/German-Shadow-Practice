@@ -61,3 +61,9 @@ Committed the reviewed items from `shadow_sessions/2026-04-29-1123.md` into the 
 Committed the reviewed items from `shadow_sessions/2026-04-30-0830.md` into the durable asset store.
 
 - Added 16 new assets with `status: new`
+
+## 2026-05-01 commit
+
+Committed the reviewed items from `shadow_sessions/2026-05-01-1008.md` into the durable asset store.
+
+- Added 20 new assets with `status: new`

@@ -1703,3 +1703,339 @@
   reset_count: 0
   last_reviewed_at: null
   mistake_note: null
+- id: a-2026-05-01-108
+  type: phrase
+  title: zu sehen sein
+  content: zu sehen sein
+  english: be visible
+  transcript_sentence: Ja, wenn du jetzt sagst Luftraum aufteilen, dann kommt natürlich
+    auch das Thema, dass jetzt gerade immer wieder Drohnen in unserem Luftraum zu
+    sehen sind, die eigentlich hier nicht hingehören oder wo man teilweise auch gar
+    nicht genau weiß, wo sie gerade herkommen und was sie hier wollen.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-01-1008.md
+  created_at: '2026-05-01'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-01-109
+  type: word
+  title: hingehören
+  content: hingehören
+  english: belong there
+  transcript_sentence: Ja, wenn du jetzt sagst Luftraum aufteilen, dann kommt natürlich
+    auch das Thema, dass jetzt gerade immer wieder Drohnen in unserem Luftraum zu
+    sehen sind, die eigentlich hier nicht hingehören oder wo man teilweise auch gar
+    nicht genau weiß, wo sie gerade herkommen und was sie hier wollen.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-01-1008.md
+  created_at: '2026-05-01'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-01-110
+  type: pattern
+  title: wo sie herkommen und was sie wollen
+  content: wo sie herkommen und was sie wollen
+  english: where they come from and what they want
+  transcript_sentence: Ja, wenn du jetzt sagst Luftraum aufteilen, dann kommt natürlich
+    auch das Thema, dass jetzt gerade immer wieder Drohnen in unserem Luftraum zu
+    sehen sind, die eigentlich hier nicht hingehören oder wo man teilweise auch gar
+    nicht genau weiß, wo sie gerade herkommen und was sie hier wollen.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-01-1008.md
+  created_at: '2026-05-01'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-01-111
+  type: pattern
+  title: Was bräuchte es?
+  content: Was bräuchte es?
+  english: What would be needed?
+  transcript_sentence: Wie kann man sich denn da deiner Meinung nach gegen schützen
+    oder was bräuchte es?
+  collocation: ''
+  source_session: shadow_sessions/2026-05-01-1008.md
+  created_at: '2026-05-01'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-01-112
+  type: pattern
+  title: Das Erste ist, dass ...
+  content: Das Erste ist, dass ...
+  english: The first thing is that ...
+  transcript_sentence: Das erste ist, dass man diese Nicht kooperativen Drohnen, nenne
+    ich es mal, überhaupt erst mal erfasst und sehr schnell weiß, wo jetzt welche
+    sind.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-01-1008.md
+  created_at: '2026-05-01'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-01-113
+  type: word
+  title: erfassen
+  content: erfassen
+  english: detect
+  transcript_sentence: Das erste ist, dass man diese Nicht kooperativen Drohnen, nenne
+    ich es mal, überhaupt erst mal erfasst und sehr schnell weiß, wo jetzt welche
+    sind.
+  collocation: Drohnen erfassen
+  source_session: shadow_sessions/2026-05-01-1008.md
+  created_at: '2026-05-01'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-01-114
+  type: phrase
+  title: an jedem Standort
+  content: an jedem Standort
+  english: at every site
+  transcript_sentence: Und das Zweite ist dann natürlich, braucht man an jedem kritischen
+    Standort, das sind Flughäfen, das sind Energieinfrastrukturen, das sind auch militärische
+    Liegenschaften, bräuchte man dann auch zuverlässige Systeme, die am besten automatisiert
+    diese nicht kooperativen Drohnen auch entfernen können.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-01-1008.md
+  created_at: '2026-05-01'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-01-115
+  type: word
+  title: Liegenschaft
+  content: Liegenschaft
+  english: facility
+  transcript_sentence: Und das Zweite ist dann natürlich, braucht man an jedem kritischen
+    Standort, das sind Flughäfen, das sind Energieinfrastrukturen, das sind auch militärische
+    Liegenschaften, bräuchte man dann auch zuverlässige Systeme, die am besten automatisiert
+    diese nicht kooperativen Drohnen auch entfernen können.
+  collocation: militärische Liegenschaften
+  source_session: shadow_sessions/2026-05-01-1008.md
+  created_at: '2026-05-01'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-01-116
+  type: word
+  title: zuverlässig
+  content: zuverlässig
+  english: reliable
+  transcript_sentence: Und das Zweite ist dann natürlich, braucht man an jedem kritischen
+    Standort, das sind Flughäfen, das sind Energieinfrastrukturen, das sind auch militärische
+    Liegenschaften, bräuchte man dann auch zuverlässige Systeme, die am besten automatisiert
+    diese nicht kooperativen Drohnen auch entfernen können.
+  collocation: zuverlässige Systeme
+  source_session: shadow_sessions/2026-05-01-1008.md
+  created_at: '2026-05-01'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-01-117
+  type: word
+  title: entfernen
+  content: entfernen
+  english: remove
+  transcript_sentence: Und das Zweite ist dann natürlich, braucht man an jedem kritischen
+    Standort, das sind Flughäfen, das sind Energieinfrastrukturen, das sind auch militärische
+    Liegenschaften, bräuchte man dann auch zuverlässige Systeme, die am besten automatisiert
+    diese nicht kooperativen Drohnen auch entfernen können.
+  collocation: Drohnen entfernen
+  source_session: shadow_sessions/2026-05-01-1008.md
+  created_at: '2026-05-01'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-01-118
+  type: pattern
+  title: eine Möglichkeit zu etw.
+  content: eine Möglichkeit zu etw.
+  english: a way to do something
+  transcript_sentence: Ja, also Jamming ist eine Möglichkeit zur Drohnenabwehr oder
+    Spoofing ist die andere.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-01-1008.md
+  created_at: '2026-05-01'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-01-119
+  type: word
+  title: ankommen
+  content: ankommen
+  english: arrive
+  transcript_sentence: Jamming heißt einfach nur, dass man das Signal stört, dass
+    gar kein Signal mehr ankommt.
+  collocation: kein Signal kommt mehr an
+  source_session: shadow_sessions/2026-05-01-1008.md
+  created_at: '2026-05-01'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-01-120
+  type: phrase
+  title: in kleinem Maßstab
+  content: in kleinem Maßstab
+  english: on a small scale
+  transcript_sentence: Das ist auch eine Technik, die die Bundeswehr schon in kleinem
+    Maßstab anwendet.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-01-1008.md
+  created_at: '2026-05-01'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-01-121
+  type: pattern
+  title: etw. auf etw. richten
+  content: etw. auf etw. richten
+  english: point something at something
+  transcript_sentence: Da gibt es dann so eine Art großes Gewehr, das man auf die
+    Drohne richtet und dann empfängt die Drohne kein Signal mehr.
+  collocation: ein Gewehr auf die Drohne richten
+  source_session: shadow_sessions/2026-05-01-1008.md
+  created_at: '2026-05-01'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-01-122
+  type: pattern
+  title: Das führt dann aber nur dazu, dass ...
+  content: Das führt dann aber nur dazu, dass ...
+  english: That only leads to ...
+  transcript_sentence: Das führt dann aber nur dazu, dass die Drohne in der Luft schweben
+    bleibt.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-01-1008.md
+  created_at: '2026-05-01'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-01-123
+  type: word
+  title: ausgehen
+  content: ausgehen
+  english: run out
+  transcript_sentence: Das heißt, man muss das Gerät so lange auf die Drohne halten,
+    bis die Batterie ausgeht und dann fällt die zu Boden.
+  collocation: die Batterie geht aus
+  source_session: shadow_sessions/2026-05-01-1008.md
+  created_at: '2026-05-01'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-01-124
+  type: phrase
+  title: zu Boden fallen
+  content: zu Boden fallen
+  english: fall to the ground
+  transcript_sentence: Das heißt, man muss das Gerät so lange auf die Drohne halten,
+    bis die Batterie ausgeht und dann fällt die zu Boden.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-01-1008.md
+  created_at: '2026-05-01'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-01-125
+  type: word
+  title: Drohnenabwehr
+  content: Drohnenabwehr
+  english: drone defense
+  transcript_sentence: Ja, also Jamming ist eine Möglichkeit zur Drohnenabwehr oder
+    Spoofing ist die andere.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-01-1008.md
+  created_at: '2026-05-01'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-01-126
+  type: word
+  title: Jamming
+  content: Jamming
+  english: jamming
+  transcript_sentence: Ja, also Jamming ist eine Möglichkeit zur Drohnenabwehr oder
+    Spoofing ist die andere.
+  collocation: Jamming ist eine Möglichkeit zur Drohnenabwehr
+  source_session: shadow_sessions/2026-05-01-1008.md
+  created_at: '2026-05-01'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-01-127
+  type: word
+  title: Spoofing
+  content: Spoofing
+  english: spoofing
+  transcript_sentence: Ja, also Jamming ist eine Möglichkeit zur Drohnenabwehr oder
+    Spoofing ist die andere.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-01-1008.md
+  created_at: '2026-05-01'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
