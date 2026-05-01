@@ -22,10 +22,10 @@ Style: GitHub dark theme (`#0d1117` background), Segoe UI / system-ui font, Clau
 - Month labels above the column group where a month begins
 - Each cell: 11×11 px, 3 px gap, 2 px border-radius
 - Empty cells: `#21262d`; active cells in 4 intensity steps keyed to word count quartiles across the window:
-  - Level 1 (low): `#4a1f08`
-  - Level 2: `#7d3a10`
-  - Level 3: `#d36820`
-  - Level 4 (high): `#f0883e`
+  - Level 1 (1–25% of window max): `#4a1f08`
+  - Level 2 (26–50%): `#7d3a10`
+  - Level 3 (51–75%): `#d36820`
+  - Level 4 (76–100%): `#f0883e`
 - Legend row, right-aligned, below the grid: "Less ░▒▓█ More"
 
 **README embed:**
@@ -43,7 +43,7 @@ Style: GitHub dark theme (`#0d1117` background), Segoe UI / system-ui font, Clau
 - `avg_per_session`: total_words / study_days, rounded to 1 decimal
 - `daily_counts`: dict mapping date → count, for the rolling 12-week window
 
-**Color thresholds:** computed dynamically from the non-zero values in the 12-week window (quartiles), so intensity is always relative to the current period, not a hardcoded scale.
+**Color thresholds:** computed from the max daily count in the 12-week window, divided into four equal bands. A day with count `c` gets level `ceil(c / max * 4)`, clamped to 1–4. If the window has no activity, all cells render as empty.
 
 ## Files
 
@@ -60,9 +60,9 @@ Style: GitHub dark theme (`#0d1117` background), Segoe UI / system-ui font, Clau
 2. Count entries per `created_at` date
 3. Compute stat row values
 4. Determine 12-week window: `today - 83 days` through `today`, aligned to Monday starts
-5. Map each date in window to an intensity level (0–4) using quartiles of non-zero counts
+5. Map each date in window to an intensity level (0–4): level = ceil(count / max_count * 4), or 0 if empty
 6. Render SVG as a string — hand-built XML, no external SVG library needed
-7. Write to `assets/chart.svg`
+7. Create `assets/` directory if it does not exist, then write `assets/chart.svg`
 
 SVG dimensions: width = `(12 weeks × 14px) + left_margin + right_padding` ≈ 720px wide, height ≈ 180px. Exact values computed during implementation to fit content cleanly.
 
