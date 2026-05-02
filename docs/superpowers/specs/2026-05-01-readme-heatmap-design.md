@@ -17,10 +17,11 @@ Style: GitHub dark theme (`#0d1117` background), Segoe UI / system-ui font, Clau
 - Avg words per session (total ÷ study days, white)
 
 **Heatmap grid** — GitHub contribution-graph format:
-- 12 weeks of columns, newest week at the right, today's week partial
+- 12 weeks of columns, newest week at the right, current week partial through today
 - 7 rows (Mon–Sun), left axis labels on Mon/Wed/Fri
 - Month labels above the column group where a month begins
 - Each cell: 11×11 px, 3 px gap, 2 px border-radius
+- Future dates in the current week are not rendered as empty activity cells; they are skipped or transparent so they are not confused with past no-study days.
 - Empty cells: `#21262d`; active cells in 4 intensity steps keyed to word count quartiles across the window:
   - Level 1 (1–25% of window max): `#4a1f08`
   - Level 2 (26–50%): `#7d3a10`
@@ -59,18 +60,19 @@ Style: GitHub dark theme (`#0d1117` background), Segoe UI / system-ui font, Clau
 1. Load `shadow_assets/assets.yaml` with PyYAML
 2. Count entries per `created_at` date
 3. Compute stat row values
-4. Determine 12-week window: `today - 83 days` through `today`, aligned to Monday starts
-5. Map each date in window to an intensity level (0–4): level = ceil(count / max_count * 4), or 0 if empty
-6. Render SVG as a string — hand-built XML, no external SVG library needed
-7. Create `assets/` directory if it does not exist, then write `assets/chart.svg`
+4. Determine 12-week grid: start at the Monday 11 weeks before today's week; render only dates through `today`
+5. Compute `max_count` from rendered dates in that 12-week window only, ignoring older historical counts and future dates
+6. Map each rendered date in window to an intensity level (0–4): level = ceil(count / max_count * 4), or 0 if empty
+7. Render SVG as a string — hand-built XML, no external SVG library needed
+8. Create `assets/` directory if it does not exist, then write `assets/chart.svg`
 
-SVG dimensions: width = `(12 weeks × 14px) + left_margin + right_padding` ≈ 720px wide, height ≈ 180px. Exact values computed during implementation to fit content cleanly.
+SVG dimensions: 720px wide by roughly 200px high. The heatmap grid keeps 11px cells and 3px gaps; the wider canvas gives the stat cards, labels, and legend enough room in README.
 
-The script is safe to re-run at any time: it always overwrites `assets/chart.svg` deterministically from the same YAML input.
+The script is safe to re-run at any time: for the same YAML input and same `today` date, it always overwrites `assets/chart.svg` deterministically.
 
 ## GitHub Actions Workflow
 
-Trigger: `push` to `main`.
+Trigger: `push` to `main` when `shadow_assets/assets.yaml` changes, plus a daily scheduled run so the rolling window advances even on days with no new assets.
 
 Steps:
 1. `actions/checkout@v4` with `persist-credentials: true`
