@@ -2039,3 +2039,209 @@
   reset_count: 0
   last_reviewed_at: null
   mistake_note: null
+- id: a-2026-05-02-128
+  type: word
+  title: unheimlich
+  content: unheimlich
+  english: extremely
+  transcript_sentence: Beides hat aber die Schwierigkeit, dass die andere Seite sich
+    da unheimlich schnell anpassen kann.
+  collocation: unheimlich schnell
+  source_session: shadow_sessions/2026-05-02-1058.md
+  created_at: '2026-05-02'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-02-129
+  type: phrase
+  title: Katz-und-Mau-Spiel
+  content: Katz-und-Mau-Spiel
+  english: cat-and-mouse game
+  transcript_sentence: Und das ist so ein Katz-und-Mau-Spiel, wo es schwierig ist,
+    die Nase vorn zu behalten.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-02-1058.md
+  created_at: '2026-05-02'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-02-130
+  type: phrase
+  title: die Nase vorn behalten
+  content: die Nase vorn behalten
+  english: stay ahead
+  transcript_sentence: Und das ist so ein Katz-und-Mau-Spiel, wo es schwierig ist,
+    die Nase vorn zu behalten.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-02-1058.md
+  created_at: '2026-05-02'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-02-131
+  type: pattern
+  title: Das sieht man auch in ...
+  content: Das sieht man auch in ...
+  english: You can also see that in ...
+  transcript_sentence: Das sieht man auch in der Ukraine zum Beispiel.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-02-1058.md
+  created_at: '2026-05-02'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-02-132
+  type: pattern
+  title: wo ich sage
+  content: wo ich sage
+  english: where I would say
+  transcript_sentence: Und das ist auch ein Problem, wo ich sage, dass der Innenminister
+    noch ein bisschen auf dem falschen Fuß ist.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-02-1058.md
+  created_at: '2026-05-02'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-02-133
+  type: phrase
+  title: auf dem falschen Fuß sein
+  content: auf dem falschen Fuß sein
+  english: be wrong-footed
+  transcript_sentence: Und das ist auch ein Problem, wo ich sage, dass der Innenminister
+    noch ein bisschen auf dem falschen Fuß ist.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-02-1058.md
+  created_at: '2026-05-02'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-02-134
+  type: phrase
+  title: einen Vorsprung aufbauen
+  content: einen Vorsprung aufbauen
+  english: build up a lead
+  transcript_sentence: Aber es ist nicht ein einmaliger Sprint, wo man einmal einen
+    Vorsprung aufbaut und dann hat man den, sondern man muss eben, es ist ein Marathon,
+    man muss die ganze Zeit die Nase vorn behalten und sich immer wieder anpassen.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-02-1058.md
+  created_at: '2026-05-02'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-02-135
+  type: phrase
+  title: sich auf neue Gegebenheiten anpassen
+  content: sich auf neue Gegebenheiten anpassen
+  english: adapt to new conditions
+  transcript_sentence: Und dafür ist es auch wichtig, dass man agil ist und sich schnell
+    auf die neuen Gegebenheiten anpassen kann.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-02-1058.md
+  created_at: '2026-05-02'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-02-136
+  type: pattern
+  title: es hört sich an
+  content: es hört sich an
+  english: it sounds
+  transcript_sentence: Also es hört sich jetzt gerade an, als wenn Deutschland das
+    nicht wäre.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-02-1058.md
+  created_at: '2026-05-02'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-02-137
+  type: pattern
+  title: als wenn
+  content: als wenn
+  english: as if
+  transcript_sentence: Also es hört sich jetzt gerade an, als wenn Deutschland das
+    nicht wäre.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-02-1058.md
+  created_at: '2026-05-02'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-02-138
+  type: pattern
+  title: Wie steht es da so um ...?
+  content: Wie steht es da so um ...?
+  english: How are things looking regarding ...?
+  transcript_sentence: Wie steht es da so in Europa um die Kompetenz rund um Drohnen?
+  collocation: ''
+  source_session: shadow_sessions/2026-05-02-1058.md
+  created_at: '2026-05-02'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-02-139
+  type: phrase
+  title: rund um
+  content: rund um
+  english: around / concerning
+  transcript_sentence: Wie steht es da so in Europa um die Kompetenz rund um Drohnen?
+  collocation: ''
+  source_session: shadow_sessions/2026-05-02-1058.md
+  created_at: '2026-05-02'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-02-140
+  type: pattern
+  title: die Schwierigkeit haben, dass ...
+  content: die Schwierigkeit haben, dass ...
+  english: have the difficulty that ...
+  transcript_sentence: Beides hat aber die Schwierigkeit, dass die andere Seite sich
+    da unheimlich schnell anpassen kann.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-02-1058.md
+  created_at: '2026-05-02'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
