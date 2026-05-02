@@ -5,3 +5,4 @@ pytest-cache-files-*/
 
 shadow_dashboard_server.*.log
 .claude
+.superpowers/
