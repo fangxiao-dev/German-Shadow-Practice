@@ -120,10 +120,10 @@ def test_build_week_grid_assigns_levels():
     today = date(2026, 5, 1)
     counts = {date(2026, 4, 29): 16, date(2026, 4, 30): 16}
     grid = build_week_grid(counts, today)
-    # Find the week containing Apr 29 (Tuesday = index 1)
-    apr29_week = next(w for w in grid if w[1][0] == date(2026, 4, 29))
-    assert apr29_week[1][1] == 4  # max=16, level=4
-    assert apr29_week[2][1] == 4  # Apr 30, also 16
+    # Find the week containing Apr 29 (Wednesday = index 2)
+    apr29_week = next(w for w in grid if w[2][0] == date(2026, 4, 29))
+    assert apr29_week[2][1] == 4  # max=16, level=4
+    assert apr29_week[3][1] == 4  # Apr 30, also 16
 
 def test_build_week_grid_uses_window_max_not_historical_max():
     today = date(2026, 5, 1)
@@ -132,8 +132,8 @@ def test_build_week_grid_uses_window_max_not_historical_max():
         date(2026, 4, 29): 16,
     }
     grid = build_week_grid(counts, today)
-    apr29_week = next(w for w in grid if w[1][0] == date(2026, 4, 29))
-    assert apr29_week[1][1] == 4
+    apr29_week = next(w for w in grid if w[2][0] == date(2026, 4, 29))
+    assert apr29_week[2][1] == 4
 ```
 
 **Step 2: Run tests to confirm they fail**
@@ -298,8 +298,8 @@ Append to `scripts/build_readme_chart.py`:
 ```python
 # ── SVG constants ──────────────────────────────────────────────────────────────
 
-CELL   = 11   # px, square cell
-GAP    =  3   # px between cells
+CELL   = 13   # px, square cell
+GAP    =  4   # px between cells
 WEEKS  = 12
 DAYS   =  7
 
@@ -309,25 +309,24 @@ CARD_BG    = "#161b22"
 BORDER     = "#30363d"
 TEXT_PRI   = "#e6edf3"
 TEXT_SEC   = "#6e7681"
+TEXT_MUTED = "#484f58"
 ORANGE_HI  = "#f0883e"
 LEVELS = ["#21262d", "#4a1f08", "#7d3a10", "#d36820", "#f0883e"]
+FONT = "Segoe UI Variable,Segoe UI,system-ui,sans-serif"
 
 # Layout
-PAD        = 16
+PAD        = 18
 DAY_LABEL_W = 28
-CARD_H     = 52
-CARD_GAP   = 10
-GRID_TOP   = PAD + CARD_H + 24   # below stat row
-MONTH_ROW_H = 14
-GRID_Y     = GRID_TOP + MONTH_ROW_H + 4
-
-GRID_W = WEEKS * (CELL + GAP) - GAP          # 12*14-3 = 165
-TOTAL_W = 720
-GRID_H  = DAYS * (CELL + GAP) - GAP          # 7*14-3 = 95
-LEGEND_H = 18
-TOTAL_H = GRID_Y + GRID_H + LEGEND_H + PAD  # ~199
-
-GRID_X = TOTAL_W - PAD - GRID_W  # right-align the newest week in the wide canvas
+CARD_GAP = 6
+CARD_W = 120
+CARD_H = 42
+GRID_W = WEEKS * (CELL + GAP) - GAP          # 12*17-4 = 200
+GRID_H  = DAYS * (CELL + GAP) - GAP          # 7*17-4 = 115
+TOTAL_W = 440
+TOTAL_H = 250
+GRID_X = PAD + DAY_LABEL_W
+GRID_Y = 116
+MONTH_Y = 101
 DAY_LABEL_X = GRID_X - DAY_LABEL_W
 
 
@@ -354,30 +353,26 @@ def build_svg(
       f'viewBox="0 0 {TOTAL_W} {TOTAL_H}">')
     e(f'  <rect width="{TOTAL_W}" height="{TOTAL_H}" rx="8" fill="{CARD_BG}"/>')
 
-    # ── Stat cards ──
-    card_w = (TOTAL_W - 2 * PAD - 2 * CARD_GAP) // 3
-    cards = [
-        (str(study_days), "study days", "total",       ORANGE_HI),
-        (str(total_words), "words",     "committed",   TEXT_PRI),
-        (str(avg),         "avg",       "per session", TEXT_PRI),
+    # ── Header and compact top stat cards ──
+    e(f'  <text x="{PAD}" y="34" font-family="{FONT}" '
+      f'font-size="18" font-weight="650" fill="{TEXT_PRI}">German study</text>')
+    e(f'  <text x="{PAD}" y="51" font-family="{FONT}" '
+      f'font-size="10" fill="{TEXT_SEC}">12-week shadow practice</text>')
+
+    stat_rows = [
+        ("Study days", str(study_days)),
+        ("Words", str(total_words)),
+        ("Avg/session", str(avg)),
     ]
-    for i, (val, label1, label2, val_color) in enumerate(cards):
-        cx = PAD + i * (card_w + CARD_GAP)
-        cy = PAD
-        e(f'  <rect x="{cx}" y="{cy}" width="{card_w}" height="{CARD_H}" '
-          f'rx="5" fill="{BG}" stroke="{BORDER}" stroke-width="1"/>')
-        # large value
-        e(f'  <text x="{cx + 12}" y="{cy + 32}" '
-          f'font-family="\'Segoe UI\',system-ui,sans-serif" font-size="20" '
-          f'font-weight="600" fill="{val_color}">{val}</text>')
-        # top label
-        e(f'  <text x="{cx + 12}" y="{cy + 43}" '
-          f'font-family="\'Segoe UI\',system-ui,sans-serif" font-size="9" '
-          f'fill="{TEXT_PRI}">{label1}</text>')
-        # bottom label
-        e(f'  <text x="{cx + 12}" y="{cy + 50}" '
-          f'font-family="\'Segoe UI\',system-ui,sans-serif" font-size="8" '
-          f'fill="{TEXT_SEC}">{label2}</text>')
+    for idx, (label, value) in enumerate(stat_rows):
+        x = PAD + idx * (CARD_W + CARD_GAP)
+        y = 66
+        e(f'  <rect x="{x}" y="{y}" width="{CARD_W}" height="{CARD_H}" '
+          f'rx="6" fill="#21262d" opacity="0.9"/>')
+        e(f'  <text x="{x + 9}" y="{y + 16}" font-family="{FONT}" '
+          f'font-size="10" fill="{TEXT_SEC}">{label}</text>')
+        e(f'  <text x="{x + 9}" y="{y + 34}" font-family="{FONT}" '
+          f'font-size="16" font-weight="700" fill="{TEXT_PRI}">{value}</text>')
 
     # ── Month labels ──
     last_month = None
@@ -387,8 +382,8 @@ def build_svg(
             last_month = first_day.month
             mx = _x(wi)
             month_name = first_day.strftime("%b")
-            e(f'  <text x="{mx}" y="{GRID_TOP + 10}" '
-              f'font-family="\'Segoe UI\',system-ui,sans-serif" font-size="9" '
+            e(f'  <text x="{mx}" y="{MONTH_Y}" '
+              f'font-family="{FONT}" font-size="10" '
               f'fill="{TEXT_SEC}">{month_name}</text>')
 
     # ── Day axis labels ──
@@ -396,7 +391,7 @@ def build_svg(
     for di, label in label_days.items():
         ly = _y(di) + CELL - 1
         e(f'  <text x="{DAY_LABEL_X}" y="{ly}" '
-          f'font-family="\'Segoe UI\',system-ui,sans-serif" font-size="8" '
+          f'font-family="{FONT}" font-size="9" '
           f'fill="{TEXT_SEC}" text-anchor="start">{label}</text>')
 
     # ── Heatmap cells ──
@@ -411,19 +406,22 @@ def build_svg(
               f'rx="2" fill="{color}"/>')
 
     # ── Legend ──
-    legend_y = GRID_Y + GRID_H + 10
-    lx = TOTAL_W - PAD - len(LEVELS) * (CELL + 3) - 30
+    legend_y = GRID_Y + GRID_H + 14
+    legend_right = GRID_X + GRID_W
+    more_w = 26
+    cell_group_w = len(LEVELS) * (CELL + 3) - 3
+    cells_x = legend_right - more_w - 6 - cell_group_w
+    lx = cells_x - 30
     e(f'  <text x="{lx}" y="{legend_y + CELL - 1}" '
-      f'font-family="\'Segoe UI\',system-ui,sans-serif" font-size="8" '
+      f'font-family="{FONT}" font-size="9" '
       f'fill="{TEXT_SEC}">Less</text>')
     for i, color in enumerate(LEVELS):
-        rx = lx + 28 + i * (CELL + 3)
+        rx = cells_x + i * (CELL + 3)
         e(f'  <rect x="{rx}" y="{legend_y}" width="{CELL}" height="{CELL}" '
           f'rx="2" fill="{color}"/>')
-    more_x = lx + 28 + len(LEVELS) * (CELL + 3) + 2
-    e(f'  <text x="{more_x}" y="{legend_y + CELL - 1}" '
-      f'font-family="\'Segoe UI\',system-ui,sans-serif" font-size="8" '
-      f'fill="{TEXT_SEC}">More</text>')
+    e(f'  <text x="{legend_right}" y="{legend_y + CELL - 1}" '
+      f'font-family="{FONT}" font-size="9" '
+      f'fill="{TEXT_SEC}" text-anchor="end">More</text>')
 
     e("</svg>")
     return "\n".join(lines)

@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="250" viewBox="0 0 440 250">
+  <rect width="440" height="250" rx="8" fill="#161b22"/>
+  <text x="18" y="34" font-family="Segoe UI Variable,Segoe UI,system-ui,sans-serif" font-size="18" font-weight="650" fill="#e6edf3">German study</text>
+  <text x="18" y="51" font-family="Segoe UI Variable,Segoe UI,system-ui,sans-serif" font-size="10" fill="#6e7681">12-week shadow practice</text>
+  <rect x="18" y="66" width="120" height="42" rx="6" fill="#21262d" opacity="0.9"/>
+  <text x="27" y="82" font-family="Segoe UI Variable,Segoe UI,system-ui,sans-serif" font-size="10" fill="#6e7681">Study days</text>
+  <text x="27" y="100" font-family="Segoe UI Variable,Segoe UI,system-ui,sans-serif" font-size="16" font-weight="700" fill="#e6edf3">8</text>
+  <rect x="144" y="66" width="120" height="42" rx="6" fill="#21262d" opacity="0.9"/>
+  <text x="153" y="82" font-family="Segoe UI Variable,Segoe UI,system-ui,sans-serif" font-size="10" fill="#6e7681">Words</text>
+  <text x="153" y="100" font-family="Segoe UI Variable,Segoe UI,system-ui,sans-serif" font-size="16" font-weight="700" fill="#e6edf3">140</text>
+  <rect x="270" y="66" width="120" height="42" rx="6" fill="#21262d" opacity="0.9"/>
+  <text x="279" y="82" font-family="Segoe UI Variable,Segoe UI,system-ui,sans-serif" font-size="10" fill="#6e7681">Avg/session</text>
+  <text x="279" y="100" font-family="Segoe UI Variable,Segoe UI,system-ui,sans-serif" font-size="16" font-weight="700" fill="#e6edf3">17.5</text>
+  <text x="46" y="101" font-family="Segoe UI Variable,Segoe UI,system-ui,sans-serif" font-size="10" fill="#6e7681">Feb</text>
+  <text x="97" y="101" font-family="Segoe UI Variable,Segoe UI,system-ui,sans-serif" font-size="10" fill="#6e7681">Mar</text>
+  <text x="182" y="101" font-family="Segoe UI Variable,Segoe UI,system-ui,sans-serif" font-size="10" fill="#6e7681">Apr</text>
+  <text x="18" y="128" font-family="Segoe UI Variable,Segoe UI,system-ui,sans-serif" font-size="9" fill="#6e7681" text-anchor="start">Mon</text>
+  <text x="18" y="162" font-family="Segoe UI Variable,Segoe UI,system-ui,sans-serif" font-size="9" fill="#6e7681" text-anchor="start">Wed</text>
+  <text x="18" y="196" font-family="Segoe UI Variable,Segoe UI,system-ui,sans-serif" font-size="9" fill="#6e7681" text-anchor="start">Fri</text>
+  <rect class="day" x="46" y="116" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="46" y="133" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="46" y="150" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="46" y="167" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="46" y="184" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="46" y="201" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="46" y="218" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="63" y="116" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="63" y="133" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="63" y="150" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="63" y="167" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="63" y="184" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="63" y="201" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="63" y="218" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="80" y="116" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="80" y="133" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="80" y="150" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="80" y="167" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="80" y="184" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="80" y="201" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="80" y="218" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="97" y="116" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="97" y="133" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="97" y="150" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="97" y="167" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="97" y="184" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="97" y="201" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="97" y="218" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="114" y="116" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="114" y="133" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="114" y="150" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="114" y="167" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="114" y="184" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="114" y="201" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="114" y="218" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="131" y="116" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="131" y="133" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="131" y="150" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="131" y="167" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="131" y="184" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="131" y="201" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="131" y="218" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="148" y="116" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="148" y="133" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="148" y="150" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="148" y="167" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="148" y="184" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="148" y="201" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="148" y="218" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="165" y="116" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="165" y="133" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="165" y="150" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="165" y="167" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="165" y="184" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="165" y="201" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="165" y="218" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="182" y="116" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="182" y="133" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="182" y="150" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="182" y="167" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="182" y="184" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="182" y="201" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="182" y="218" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="199" y="116" width="13" height="13" rx="2" fill="#f0883e"/>
+  <rect class="day" x="199" y="133" width="13" height="13" rx="2" fill="#7d3a10"/>
+  <rect class="day" x="199" y="150" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="199" y="167" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="199" y="184" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="199" y="201" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="199" y="218" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="216" y="116" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="216" y="133" width="13" height="13" rx="2" fill="#f0883e"/>
+  <rect class="day" x="216" y="150" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="216" y="167" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="216" y="184" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="216" y="201" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="216" y="218" width="13" height="13" rx="2" fill="#4a1f08"/>
+  <rect class="day" x="233" y="116" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="233" y="133" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="233" y="150" width="13" height="13" rx="2" fill="#7d3a10"/>
+  <rect class="day" x="233" y="167" width="13" height="13" rx="2" fill="#7d3a10"/>
+  <rect class="day" x="233" y="184" width="13" height="13" rx="2" fill="#d36820"/>
+  <rect class="day" x="233" y="201" width="13" height="13" rx="2" fill="#7d3a10"/>
+  <text x="107" y="257" font-family="Segoe UI Variable,Segoe UI,system-ui,sans-serif" font-size="9" fill="#6e7681">Less</text>
+  <rect x="137" y="245" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect x="153" y="245" width="13" height="13" rx="2" fill="#4a1f08"/>
+  <rect x="169" y="245" width="13" height="13" rx="2" fill="#7d3a10"/>
+  <rect x="185" y="245" width="13" height="13" rx="2" fill="#d36820"/>
+  <rect x="201" y="245" width="13" height="13" rx="2" fill="#f0883e"/>
+  <text x="246" y="257" font-family="Segoe UI Variable,Segoe UI,system-ui,sans-serif" font-size="9" fill="#6e7681" text-anchor="end">More</text>
+</svg>

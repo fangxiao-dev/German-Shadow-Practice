@@ -112,6 +112,7 @@ Writes:
 - `<project-root>\shadow_assets\assets.yaml`
 - `<project-root>\shadow_reviews\review_state.yaml`
 - `<project-root>\shadow_reviews\review_log.md` when a short commit note is needed
+- `<project-root>\assets\chart.svg` when README heatmap data changes
 
 Behavior:
 - Resolve the session path via the dispatcher defaults when the user does not provide one.
@@ -138,6 +139,11 @@ Behavior:
 - The commit result must preserve the distinction between:
   - first-time durable additions
   - existing durable assets that were re-hit and reset by a later capture
+- After a successful durable commit, refresh the README heatmap:
+  - Run `python <project-root>\scripts\build_readme_chart.py`.
+  - Treat `assets\chart.svg` as generated output; do not edit it by hand.
+  - If `assets\chart.svg` changes, commit that refresh as its own follow-up Git commit after the durable state commit.
+  - If the heatmap script fails, keep the durable commit result and debug only the heatmap boundary.
 - If the helper script fails, isolate the failing boundary before changing approach:
   - durable YAML write
   - dashboard data rebuild

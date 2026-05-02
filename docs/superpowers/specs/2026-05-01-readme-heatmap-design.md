@@ -9,9 +9,14 @@ A self-updating SVG chart embedded in README.md for public GitHub display. It sh
 
 ## Visual Design
 
-Style: GitHub dark theme (`#0d1117` background), Segoe UI / system-ui font, Claude orange heatmap palette.
+Style: GitHub dark theme (`#0d1117` accents on `#161b22` card background), Segoe UI Variable / Segoe UI / system-ui font stack, Claude orange heatmap palette.
 
-**Stat row** — three compact cards side by side:
+**Layout** — compact README card:
+- Top area: title/subtitle followed by compact stat cards in one row
+- Bottom area: 12-week heatmap with month labels, weekday labels, and legend
+- No side rail; preserve a stacked top-to-bottom layout so the stats read before the activity grid
+
+**Stats** — three compact cards:
 - Study days (total unique days in `assets.yaml`, highlighted orange)
 - Words committed (total asset count, white)
 - Avg words per session (total ÷ study days, white)
@@ -20,7 +25,7 @@ Style: GitHub dark theme (`#0d1117` background), Segoe UI / system-ui font, Clau
 - 12 weeks of columns, newest week at the right, current week partial through today
 - 7 rows (Mon–Sun), left axis labels on Mon/Wed/Fri
 - Month labels above the column group where a month begins
-- Each cell: 11×11 px, 3 px gap, 2 px border-radius
+- Each cell: 13×13 px, 4 px gap, 2 px border-radius
 - Future dates in the current week are not rendered as empty activity cells; they are skipped or transparent so they are not confused with past no-study days.
 - Empty cells: `#21262d`; active cells in 4 intensity steps keyed to word count quartiles across the window:
   - Level 1 (1–25% of window max): `#4a1f08`
@@ -66,7 +71,7 @@ Style: GitHub dark theme (`#0d1117` background), Segoe UI / system-ui font, Clau
 7. Render SVG as a string — hand-built XML, no external SVG library needed
 8. Create `assets/` directory if it does not exist, then write `assets/chart.svg`
 
-SVG dimensions: 720px wide by roughly 200px high. The heatmap grid keeps 11px cells and 3px gaps; the wider canvas gives the stat cards, labels, and legend enough room in README.
+SVG dimensions: about 440px wide by 250px high. The chart should read as a compact README card: stat cards on top, heatmap underneath, no large unused blank area.
 
 The script is safe to re-run at any time: for the same YAML input and same `today` date, it always overwrites `assets/chart.svg` deterministically.
 
