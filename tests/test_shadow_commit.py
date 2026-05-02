@@ -162,6 +162,51 @@ class ShadowCommitTests(unittest.TestCase):
         self.assertEqual(item["collocation"], "in der breiten Masse ankommen")
         self.assertEqual(payload["summary"]["total_items"], 2)
 
+    def test_dashboard_recent_summary_counts_latest_commit_batch_only(self) -> None:
+        shadow_commit.commit_session(
+            root=self.root,
+            session_path=self.root / "shadow_sessions" / "2026-04-21-0934.md",
+            committed_at="2026-04-21 10:00",
+        )
+        assets = yaml.safe_load((self.root / "shadow_assets" / "assets.yaml").read_text(encoding="utf-8"))
+        assets.append(
+            {
+                "id": "a-2026-04-13-099",
+                "type": "pattern",
+                "title": "older pattern",
+                "content": "older pattern",
+                "english": "older pattern",
+                "transcript_sentence": "Older sentence.",
+                "source_session": "shadow_sessions/2026-04-13-1215.md",
+                "created_at": "2026-04-13",
+                "status": "solid",
+                "priority": "normal",
+                "review_count": 2,
+                "reset_count": 0,
+                "last_reviewed_at": "2026-04-20",
+                "mistake_note": None,
+            }
+        )
+        write_yaml(self.root / "shadow_assets" / "assets.yaml", assets)
+
+        payload = build_shadow_dashboard.build_dashboard_data(root=self.root)
+
+        self.assertEqual(payload["summary"]["type_counts"], {"phrase": 1, "word": 1, "pattern": 1})
+        self.assertEqual(payload["recent_summary"]["type_counts"], {"phrase": 1, "word": 1})
+        self.assertEqual(payload["recent_summary"]["status_counts"], {"new": 2})
+        self.assertEqual(payload["recent_summary"]["total_items"], 2)
+
+    def test_commit_accepts_relative_session_path_against_root(self) -> None:
+        result = shadow_commit.commit_session(
+            root=self.root,
+            session_path=Path("shadow_sessions") / "2026-04-21-0934.md",
+            committed_at="2026-04-21 10:00",
+        )
+
+        self.assertEqual(result["session"], "shadow_sessions/2026-04-21-0934.md")
+        self.assertEqual(result["added_count"], 1)
+        self.assertEqual(result["reset_count"], 1)
+
     def test_recent_items_include_reset_hits_from_latest_commit_batch(self) -> None:
         shadow_commit.commit_session(
             root=self.root,

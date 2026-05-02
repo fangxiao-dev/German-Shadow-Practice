@@ -110,8 +110,12 @@ def parse_session_file(path: Path) -> tuple[str, list[dict[str, str]]]:
 
 
 def choose_session_path(root: Path, explicit_path: Path | None) -> Path:
+    root = root.resolve()
     if explicit_path is not None:
-        return explicit_path
+        explicit_path = Path(explicit_path)
+        if not explicit_path.is_absolute():
+            explicit_path = root / explicit_path
+        return explicit_path.resolve()
 
     sessions = sorted(
         (path for path in (root / "shadow_sessions").glob("*.md") if path.name != "README.md"),
@@ -119,7 +123,7 @@ def choose_session_path(root: Path, explicit_path: Path | None) -> Path:
     )
     if not sessions:
         raise FileNotFoundError("No shadow session files found")
-    return sessions[-1]
+    return sessions[-1].resolve()
 
 
 def next_asset_id(assets: list[dict], created_at: str) -> str:
@@ -132,7 +136,7 @@ def next_asset_id(assets: list[dict], created_at: str) -> str:
 
 
 def relative_session_path(root: Path, session_path: Path) -> str:
-    return session_path.relative_to(root).as_posix()
+    return session_path.resolve().relative_to(root.resolve()).as_posix()
 
 
 def ensure_reset_count(record: dict) -> None:

@@ -46,6 +46,10 @@ function getAllItems() {
   return state.data?.all_items || [];
 }
 
+function getRecentItems() {
+  return state.data?.recent_items || [];
+}
+
 function isItemVisible(item) {
   const typeSelected = state.filters.type.size === 0 || state.filters.type.has(item.type);
   const statusSelected = state.filters.status.size === 0 || state.filters.status.has(item.status);
@@ -74,11 +78,11 @@ function buildFilterChip(kind, value, count) {
 }
 
 function updateFilterUI() {
-  const allItems = getAllItems();
+  const recentItems = getRecentItems();
   const typeCounts = new Map();
   const statusCounts = new Map();
 
-  for (const item of allItems) {
+  for (const item of recentItems) {
     typeCounts.set(item.type, (typeCounts.get(item.type) || 0) + 1);
     statusCounts.set(item.status, (statusCounts.get(item.status) || 0) + 1);
   }
@@ -194,10 +198,10 @@ function renderWeekly(groups) {
 }
 
 function renderDashboard() {
-  const allItems = getAllItems().filter(isItemVisible);
-  const recentSeed = (state.data?.recent_items || []).filter(isItemVisible);
-  const recentItems = recentSeed.length > 0
-    ? recentSeed
+  const allItems = getAllItems();
+  const recentSource = getRecentItems();
+  const recentItems = recentSource.length > 0
+    ? recentSource.filter(isItemVisible)
     : allItems.slice().sort((a, b) => {
         if (a.created_at === b.created_at) {
           return b.id.localeCompare(a.id);

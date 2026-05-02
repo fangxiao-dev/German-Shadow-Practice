@@ -251,9 +251,17 @@ def build_dashboard_data(root: Path = ROOT) -> dict:
     else:
         recent_items = enriched_items[:12]
 
+    recent_summary = {
+        "total_items": len(recent_items),
+        "status_counts": dict(Counter(item["status"] for item in recent_items)),
+        "type_counts": dict(Counter(item["type"] for item in recent_items)),
+        "latest_session": recent_items[0]["source_session"] if recent_items else None,
+    }
+
     return {
         "generated_at": datetime.now().isoformat(timespec="seconds"),
         "summary": summary,
+        "recent_summary": recent_summary,
         "all_items": enriched_items,
         "recent_items": recent_items,
         "weekly_groups": weekly_groups,
