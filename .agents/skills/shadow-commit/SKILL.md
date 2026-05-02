@@ -30,6 +30,7 @@ python <project-root>\scripts\shadow_commit.py
 
 Rules:
 - If the user provides an explicit session file, pass it with `--session`.
+- Prefer an absolute `--session` path, or ensure the helper script resolves a relative session path against `<project-root>` before computing the stored `source_session` reference.
 - If no session is provided, let the script choose the latest `YYYY-MM-DD-HHMM.md` session.
 - Let the script update `shadow_assets\assets.yaml`, `shadow_reviews\review_state.yaml`, `shadow_reviews\review_log.md`, rebuild dashboard data, and launch/open the dashboard by default.
 - Use `--no-dashboard` only when the user explicitly asks to skip dashboard follow-up.

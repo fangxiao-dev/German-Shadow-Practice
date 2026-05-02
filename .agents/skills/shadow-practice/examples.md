@@ -1,5 +1,48 @@
 # shadow-practice examples
 
+## Unified dispatcher
+
+Input:
+
+```text
+$shadow-practice capture
+```
+
+Expected behavior:
+- Choose the latest `<project-root>\raw-transcripts\*.md` by filesystem last-write time.
+- Delegate the resolved transcript path to `shadow-capture`.
+- Stage the session under `<project-root>\shadow_sessions\`.
+
+Input:
+
+```text
+$shadow-practice commit
+```
+
+Expected behavior:
+- Choose the latest `YYYY-MM-DD-HHMM.md` session under `<project-root>\shadow_sessions\`.
+- Delegate the resolved session path to `shadow-commit`.
+
+Input:
+
+```text
+$shadow-practice review
+```
+
+Expected behavior:
+- Default to `incremental`.
+- Delegate the resolved scope to `shadow-review`.
+
+Input:
+
+```text
+$shadow-practice report
+```
+
+Expected behavior:
+- Choose the latest review draft under `<project-root>\shadow_reviews\review_drafts\`.
+- Delegate the resolved draft path to `shadow-report`.
+
 ## `capture`
 
 Source file: `<project-root>\raw-transcripts\2026-04-13-0930.md`

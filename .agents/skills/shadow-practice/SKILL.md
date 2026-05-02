@@ -1,22 +1,48 @@
 ---
 name: shadow-practice
-description: "Shared core contract for the local German shadow-practice workflow. This skill is a file-backed scaffold, not an app, and defines the capture, commit, review, and report rules used by the thin wrapper skills."
+description: "Unified entry point and shared contract for the local German shadow-practice workflow. Use when the user calls `$shadow-practice capture`, `$shadow-practice commit`, `$shadow-practice review`, or `$shadow-practice report`; route to the concrete phase skill while applying default file selection and cross-stage state semantics."
 ---
 
 # shadow-practice
 
-Use this skill for the local German shadow-practice workflow. It is a file-backed agent scaffold, not an app. Keep it operational and narrow: capture, commit, review, report.
-It serves as the shared core contract for the thin wrapper skills `shadow-capture`, `shadow-commit`, `shadow-review`, and `shadow-report`.
+Use this skill as the unified `$shadow-practice` entry point for the local German shadow-practice workflow. It is a file-backed agent scaffold, not an app. Keep it operational and narrow: capture, commit, review, report.
+It serves two roles:
+- Route `$shadow-practice <command>` requests to the concrete phase skill.
+- Define the shared contract for `shadow-capture`, `shadow-commit`, `shadow-review`, and `shadow-report`.
 
 ## Purpose
 
 Turn pasted shadow transcripts into durable learning assets, then review them in a controlled local loop. The agent must prefer local file state over chat memory once a command has been written to disk.
 
+For the capture session layout, use `<project-root>\.agents\skills\shadow-capture\references\session-format.md` as the canonical reference.
+
+## Dispatcher contract
+
+When the user calls `$shadow-practice <command>`, treat `shadow-practice` as the orchestrator:
+
+- Parse the command: `capture`, `commit`, `review`, or `report`.
+- Apply the default input-selection rules in this section.
+- Then read and follow the concrete phase skill for execution details:
+  - `capture` -> `<project-root>\.agents\skills\shadow-capture\SKILL.md`
+  - `commit` -> `<project-root>\.agents\skills\shadow-commit\SKILL.md`
+  - `review` -> `<project-root>\.agents\skills\shadow-review\SKILL.md`
+  - `report` -> `<project-root>\.agents\skills\shadow-report\SKILL.md`
+- Do not duplicate phase-specific implementation details in this dispatcher when they belong in the concrete skill.
+- If the user provides an explicit file, scope, or option, prefer it over the defaults below.
+
+Default input selection:
+- `capture`: if no transcript path is provided, choose the latest file under `<project-root>\raw-transcripts\*.md` by filesystem last-write time. If there is a tie, choose the lexicographically latest path.
+- `commit`: if no session path is provided, choose the latest `YYYY-MM-DD-HHMM.md` file under `<project-root>\shadow_sessions\` by the session filename timestamp.
+- `review`: if no scope is provided, use `incremental`.
+- `report`: if no review draft path is provided, choose the latest file under `<project-root>\shadow_reviews\review_drafts\*.md` by filesystem last-write time.
+
+If a default cannot be resolved, stop and ask for the missing input instead of guessing from chat memory.
+
 ## Command contract
 
 ### `capture`
 
-Use when the user points to a local transcript file and wants the material staged for review.
+Use when the user asks for `$shadow-practice capture`, with or without an explicit transcript path.
 
 Reads:
 - A local transcript file, typically under `<project-root>\raw-transcripts\`
@@ -29,6 +55,8 @@ Writes:
 - `<project-root>\shadow_reviews\review_drafts\*.md` only if a draft review note is useful
 
 Behavior:
+- Resolve the transcript path via the dispatcher defaults when the user does not provide one.
+- After resolving the transcript path, follow `<project-root>\.agents\skills\shadow-capture\SKILL.md` for capture execution details.
 - Parse the transcript and must_keep list from a local source file that uses the `---`-separated input.
 - Classify each must_keep item as `word`, `phrase`, or `pattern`.
 - Propose recommendation items only when they are clearly worthwhile and fill an obvious gap in the user's list.
@@ -53,6 +81,7 @@ Behavior:
 - Do not write a `note` field in staged items.
 - Write a session file under `<project-root>\shadow_sessions\` using the stable session naming rule.
 - Store the source transcript path in the session file instead of copying the full raw transcript body.
+- Follow the session layout in `<project-root>\.agents\skills\shadow-capture\references\session-format.md`.
 - Do not write to the permanent asset store yet.
 - Treat the session file as the editable review document for the next step.
 - When a staged target matches an existing durable asset, keep it visible in the session note instead of silently suppressing it.
@@ -72,7 +101,7 @@ Edge cases:
 
 ### `commit`
 
-Use when the user says the session is reviewed and the remaining items should become durable assets.
+Use when the user asks for `$shadow-practice commit`, with or without an explicit reviewed session path.
 
 Reads:
 - `<project-root>\shadow_sessions\*.md`
@@ -85,6 +114,8 @@ Writes:
 - `<project-root>\shadow_reviews\review_log.md` when a short commit note is needed
 
 Behavior:
+- Resolve the session path via the dispatcher defaults when the user does not provide one.
+- After resolving the session path, follow `<project-root>\.agents\skills\shadow-commit\SKILL.md` for commit execution details.
 - Prefer the local helper script for commit execution:
   - `python <project-root>\scripts\shadow_commit.py`
   - add `--session <path>` when the user identifies a specific reviewed session
@@ -116,7 +147,7 @@ Behavior:
 
 ### `review`
 
-Use when the user wants an active review session over local assets.
+Use when the user asks for `$shadow-practice review`, optionally with a scope such as `incremental`, `focus`, or `full`.
 
 Reads:
 - `<project-root>\shadow_assets\assets.yaml`
@@ -127,6 +158,8 @@ Writes:
 - `<project-root>\shadow_reviews\review_drafts\*.md`
 
 Behavior:
+- Resolve the review scope via the dispatcher defaults when the user does not provide one.
+- After resolving the review scope, follow `<project-root>\.agents\skills\shadow-review\SKILL.md` for review execution details.
 - Support review scopes:
   - `incremental`: prioritize new items plus a small number of weak items.
   - `focus`: prioritize weak items and items with high priority.
@@ -137,7 +170,7 @@ Behavior:
 
 ### `report`
 
-Use when the user says the review is finished and wants a summary and update proposal.
+Use when the user asks for `$shadow-practice report`, with or without an explicit review draft path.
 
 Reads:
 - `<project-root>\shadow_reviews\review_drafts\*.md`
@@ -150,6 +183,8 @@ Writes:
 - `<project-root>\shadow_reviews\review_state.yaml` only after the user confirms the proposed bulk updates
 
 Behavior:
+- Resolve the review draft path via the dispatcher defaults when the user does not provide one.
+- After resolving the review draft path, follow `<project-root>\.agents\skills\shadow-report\SKILL.md` for report execution details.
 - Reread the saved review draft.
 - Summarize suggested solid items.
 - Summarize suggested weak or revisit items.
@@ -181,6 +216,7 @@ Rules:
 - The agent must infer whether each bullet is a `word`, `phrase`, or `pattern`.
 - If a bullet is ambiguous, keep the item but classify it conservatively.
 - After capture, the session file is the review surface the user can prune before commit.
+- Do not infer the session layout from example files; use the reference file above.
 
 ## Operational rules
 
