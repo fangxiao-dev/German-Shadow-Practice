@@ -96,6 +96,7 @@
   <rect class="day" x="216" y="201" width="13" height="13" rx="2" fill="#7d3a10"/>
   <rect class="day" x="216" y="218" width="13" height="13" rx="2" fill="#21262d"/>
   <rect class="day" x="233" y="116" width="13" height="13" rx="2" fill="#21262d"/>
+  <rect class="day" x="233" y="133" width="13" height="13" rx="2" fill="#21262d"/>
   <text x="107" y="257" font-family="Segoe UI Variable,Segoe UI,system-ui,sans-serif" font-size="9" fill="#6e7681">Less</text>
   <rect x="137" y="245" width="13" height="13" rx="2" fill="#21262d"/>
   <rect x="153" y="245" width="13" height="13" rx="2" fill="#4a1f08"/>
