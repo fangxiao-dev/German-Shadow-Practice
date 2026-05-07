@@ -80,6 +80,7 @@ class ShadowCommitTests(unittest.TestCase):
                     "title": "in der breiten Masse",
                     "content": "in der breiten Masse",
                     "english": "among the broad public",
+                    "collocation": "in der breiten Masse ankommen",
                     "transcript_sentence": "Frueher kam das kaum in der breiten Masse an.",
                     "source_session": "shadow_sessions/2026-04-13-1215.md",
                     "created_at": "2026-04-13",
@@ -146,6 +147,92 @@ class ShadowCommitTests(unittest.TestCase):
         log_text = (self.root / "shadow_reviews" / "review_log.md").read_text(encoding="utf-8")
         self.assertIn("Added 1 new assets", log_text)
         self.assertIn("Reset 1 existing assets to `new`", log_text)
+
+    def test_commit_refreshes_asset_index(self) -> None:
+        shadow_commit.commit_session(
+            root=self.root,
+            session_path=self.root / "shadow_sessions" / "2026-04-21-0934.md",
+            committed_at="2026-04-21 10:00",
+        )
+
+        index = yaml.safe_load((self.root / "shadow_assets" / "asset_index.json").read_text(encoding="utf-8"))
+
+        self.assertEqual(index["source"], "shadow_assets/assets.yaml")
+        self.assertEqual(index["exact"]["in der breiten masse"], ["a-2026-04-13-026"])
+        self.assertEqual(index["exact"]["aufwerten"], ["a-2026-04-21-027"])
+        self.assertEqual(index["items"]["a-2026-04-13-026"]["reset_count"], 2)
+
+    def test_commit_resets_existing_asset_when_target_matches_title_or_collocation(self) -> None:
+        write_text(
+            self.root / "shadow_sessions" / "2026-04-22-0900.md",
+            textwrap.dedent(
+                """
+                # Shadow Session
+
+                - source: `raw-transcripts\\260421.md`
+                - captured_at: `2026-04-22 09:00`
+                - status: staged
+
+                ## Must Keep Candidates
+
+                - raw: `in der breiten Masse ankommen`
+                  target: `in der breiten Masse ankommen`
+                  type: `phrase`
+                  english: `reach the broad public`
+                  transcript_sentence: `Lufttaxis kommen in der breiten Masse an.`
+                """
+            ).strip(),
+        )
+
+        result = shadow_commit.commit_session(
+            root=self.root,
+            session_path=self.root / "shadow_sessions" / "2026-04-22-0900.md",
+            committed_at="2026-04-22 09:30",
+        )
+
+        assets = yaml.safe_load((self.root / "shadow_assets" / "assets.yaml").read_text(encoding="utf-8"))
+
+        self.assertEqual(result["added_count"], 0)
+        self.assertEqual(result["reset_count"], 1)
+        self.assertEqual(len(assets), 1)
+        self.assertEqual(assets[0]["id"], "a-2026-04-13-026")
+        self.assertEqual(assets[0]["content"], "in der breiten Masse ankommen")
+        self.assertEqual(assets[0]["reset_count"], 2)
+
+    def test_commit_chooses_first_asset_when_exact_index_has_multiple_ids(self) -> None:
+        assets = yaml.safe_load((self.root / "shadow_assets" / "assets.yaml").read_text(encoding="utf-8"))
+        duplicate = dict(assets[0])
+        duplicate["id"] = "a-2026-04-14-999"
+        duplicate["reset_count"] = 0
+        assets.append(duplicate)
+        write_yaml(self.root / "shadow_assets" / "assets.yaml", assets)
+        state = yaml.safe_load((self.root / "shadow_reviews" / "review_state.yaml").read_text(encoding="utf-8"))
+        state.append(
+            {
+                "id": "a-2026-04-14-999",
+                "status": "solid",
+                "priority": "normal",
+                "review_count": 0,
+                "reset_count": 0,
+                "last_reviewed_at": None,
+                "mistake_note": None,
+            }
+        )
+        write_yaml(self.root / "shadow_reviews" / "review_state.yaml", state)
+
+        result = shadow_commit.commit_session(
+            root=self.root,
+            session_path=self.root / "shadow_sessions" / "2026-04-21-0934.md",
+            committed_at="2026-04-21 10:00",
+        )
+
+        assets = yaml.safe_load((self.root / "shadow_assets" / "assets.yaml").read_text(encoding="utf-8"))
+        first = next(item for item in assets if item["id"] == "a-2026-04-13-026")
+        second = next(item for item in assets if item["id"] == "a-2026-04-14-999")
+
+        self.assertEqual(result["reset_count"], 1)
+        self.assertEqual(first["reset_count"], 2)
+        self.assertEqual(second["reset_count"], 0)
 
     def test_dashboard_data_includes_reset_count(self) -> None:
         shadow_commit.commit_session(

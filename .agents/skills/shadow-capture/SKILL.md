@@ -28,8 +28,10 @@ Do not define latest-transcript selection here; `$shadow-practice capture` owns 
 
 Reads:
 - `<project-root>\raw-transcripts\*.md`
+- `<project-root>\shadow_assets\asset_index.json` for durable-hit lookup
 - `<project-root>\shadow_assets\assets.yaml` for context only
 - `<project-root>\shadow_reviews\review_state.yaml` for context only
+- `<project-root>\scripts\shadow_lookup.py` or `<project-root>\scripts\shadow_index.py` for indexed lookup helpers
 
 Writes:
 - `<project-root>\shadow_sessions\*.md`

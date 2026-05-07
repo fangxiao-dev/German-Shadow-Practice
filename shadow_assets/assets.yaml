@@ -2245,3 +2245,567 @@
   reset_count: 0
   last_reviewed_at: null
   mistake_note: null
+- id: a-2026-05-07-141
+  type: word
+  title: eindeutig
+  content: eindeutig
+  english: clearly
+  transcript_sentence: Ja, also in dem Bereich sind wir eindeutig noch weit hinten
+    dran.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-07-1050.md
+  created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-07-142
+  type: phrase
+  title: weit hinten dran sein
+  content: weit hinten dran sein
+  english: be far behind
+  transcript_sentence: Ja, also in dem Bereich sind wir eindeutig noch weit hinten
+    dran.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-07-1050.md
+  created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-07-143
+  type: phrase
+  title: weiter voran sein
+  content: weiter voran sein
+  english: be further ahead
+  transcript_sentence: Da sind auf jeden Fall Russland und die Ukraine deutlich weiter
+    voran, einfach weil sie das sehr notgedrungen jeden Tag im sehr harten Wettkampf
+    im Krieg Erproben müssen.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-07-1050.md
+  created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-07-144
+  type: word
+  title: notgedrungen
+  content: notgedrungen
+  english: out of necessity
+  transcript_sentence: Da sind auf jeden Fall Russland und die Ukraine deutlich weiter
+    voran, einfach weil sie das sehr notgedrungen jeden Tag im sehr harten Wettkampf
+    im Krieg Erproben müssen.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-07-1050.md
+  created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-07-145
+  type: word
+  title: erproben
+  content: erproben
+  english: test in practice
+  transcript_sentence: Da sind auf jeden Fall Russland und die Ukraine deutlich weiter
+    voran, einfach weil sie das sehr notgedrungen jeden Tag im sehr harten Wettkampf
+    im Krieg Erproben müssen.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-07-1050.md
+  created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-07-146
+  type: word
+  title: Sicherheitslage
+  content: Sicherheitslage
+  english: security situation
+  transcript_sentence: Wie bewertest du momentan die Sicherheitslage für den normalen
+    Menschen, sage ich mal?
+  collocation: ''
+  source_session: shadow_sessions/2026-05-07-1050.md
+  created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-07-147
+  type: phrase
+  title: auf Sicherheit ausgerichtet sein
+  content: auf Sicherheit ausgerichtet sein
+  english: be oriented toward safety
+  transcript_sentence: Zum einen, weil Deutschland eben häufig eher auf Sicherheit
+    ausgerichtet ist und dementsprechend, wenn eine Drohne eben im Flughafengebiet
+    fliegt, heißt es ja erstmal, die Flugzeuge heben nicht ab.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-07-1050.md
+  created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-07-148
+  type: pattern
+  title: das hängt davon ab
+  content: das hängt davon ab
+  english: that depends on
+  transcript_sentence: Das hängt aber natürlich auch davon ab, wie sich diese Drohnenbetreiber
+    in Zukunft verhalten werden.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-07-1050.md
+  created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-07-149
+  type: word
+  title: Drohnenbetreiber
+  content: Drohnenbetreiber
+  english: drone operator
+  transcript_sentence: Das hängt aber natürlich auch davon ab, wie sich diese Drohnenbetreiber
+    in Zukunft verhalten werden.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-07-1050.md
+  created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-07-150
+  type: word
+  title: durchaus
+  content: durchaus
+  english: quite possibly
+  transcript_sentence: Es kann ja durchaus sein, dass sie in Zukunft eben nicht mehr
+    einfach nur drüber fliegen werden und abwarten, sondern vielleicht mit der Drohne
+    überraschend in das Flugzeug reinfliegen oder ins Triebwerk oder vielleicht sogar
+    einen Sprengsatz an Bord haben.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-07-1050.md
+  created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-07-151
+  type: word
+  title: Sprengsatz
+  content: Sprengsatz
+  english: explosive device
+  transcript_sentence: Es kann ja durchaus sein, dass sie in Zukunft eben nicht mehr
+    einfach nur drüber fliegen werden und abwarten, sondern vielleicht mit der Drohne
+    überraschend in das Flugzeug reinfliegen oder ins Triebwerk oder vielleicht sogar
+    einen Sprengsatz an Bord haben.
+  collocation: einen Sprengsatz an Bord haben
+  source_session: shadow_sessions/2026-05-07-1050.md
+  created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-07-152
+  type: word
+  title: beängstigend
+  content: beängstigend
+  english: frightening
+  transcript_sentence: Das ist natürlich schon beängstigend und auch sehr gefährlich,
+    zumal diese Drohnentechnologie ja doch eine niedrige Hürde ist.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-07-1050.md
+  created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-07-153
+  type: word
+  title: umsetzen
+  content: umsetzen
+  english: put into practice
+  transcript_sentence: Also mit wenig Aufwand, mit wenig Wissen kann man so etwas
+    schon umsetzen.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-07-1050.md
+  created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-07-154
+  type: phrase
+  title: einer von vielen Alltagsgegenständen
+  content: einer von vielen Alltagsgegenständen
+  english: one of many everyday objects
+  transcript_sentence: Dazu würde ich aber auch sagen, das ist nur einer von vielen
+    Alltagsgegenständen, den man so gefährlich einsetzen kann.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-07-1050.md
+  created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-07-155
+  type: word
+  title: einsetzen
+  content: einsetzen
+  english: use
+  transcript_sentence: Dazu würde ich aber auch sagen, das ist nur einer von vielen
+    Alltagsgegenständen, den man so gefährlich einsetzen kann.
+  collocation: etw. gefährlich einsetzen
+  source_session: shadow_sessions/2026-05-07-1050.md
+  created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-07-156
+  type: phrase
+  title: geeignet sein
+  content: geeignet sein
+  english: be suitable
+  transcript_sentence: Wir haben ja auch gesehen, dass Küchenmesser und Autos auch
+    geeignet sind, um sehr großen Schaden anzurichten.
+  collocation: geeignet sein, um ...
+  source_session: shadow_sessions/2026-05-07-1050.md
+  created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-07-157
+  type: phrase
+  title: Schaden anrichten
+  content: Schaden anrichten
+  english: cause damage
+  transcript_sentence: Wir haben ja auch gesehen, dass Küchenmesser und Autos auch
+    geeignet sind, um sehr großen Schaden anzurichten.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-07-1050.md
+  created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-07-158
+  type: pattern
+  title: mit etw. umgehen können
+  content: mit etw. umgehen können
+  english: know how to handle something
+  transcript_sentence: Das ist ja ein Gegenstand, mit dem fast jeder umgehen kann.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-07-1050.md
+  created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-07-159
+  type: phrase
+  title: von daher
+  content: von daher
+  english: therefore
+  transcript_sentence: Von daher würde ich sagen, das hängt da nicht nur von der Technologie
+    ab, sondern auch von den Sicherheitsbehörden, dass sie solche Vorhaben schon im
+    Vorhinein verhindern.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-07-1050.md
+  created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-07-160
+  type: word
+  title: Vorhaben
+  content: Vorhaben
+  english: plans
+  transcript_sentence: Von daher würde ich sagen, das hängt da nicht nur von der Technologie
+    ab, sondern auch von den Sicherheitsbehörden, dass sie solche Vorhaben schon im
+    Vorhinein verhindern.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-07-1050.md
+  created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-07-161
+  type: phrase
+  title: ein Umfeld schaffen
+  content: ein Umfeld schaffen
+  english: create an environment
+  transcript_sentence: Und auch, dass die Politik vielleicht ein Umfeld schafft, in
+    dem solche Dinge gar nicht erst passieren, in dem gar nicht Terroristen ins Land
+    kommen oder hier entstehen.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-07-1050.md
+  created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-07-162
+  type: word
+  title: Verunsicherung
+  content: Verunsicherung
+  english: uncertainty
+  transcript_sentence: Und dann gibt es aber noch diese relativ diffuse Gefahr, Es
+    ist ja schon offensichtlich, dass diese ganzen Vorfälle eher koordiniert und gezielt
+    sind, um zum einen hier eine gewisse Verunsicherung zu erzeugen, die auch eine
+    politische Destabilisierung verursachen kann und zum anderen aber auch austesten
+    kann, wie eigentlich Deutschland, Europa tatsächlich auf so eine Drohnen-Gefahren
+    vorbereitet ist und Wenn es dann wirklich mal langfristig zu einem Konflikt kommen
+    würde, würde uns das garantiert zum Nachteil gereichen.
+  collocation: Verunsicherung erzeugen
+  source_session: shadow_sessions/2026-05-07-1050.md
+  created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-07-163
+  type: word
+  title: verursachen
+  content: verursachen
+  english: cause
+  transcript_sentence: Und dann gibt es aber noch diese relativ diffuse Gefahr, Es
+    ist ja schon offensichtlich, dass diese ganzen Vorfälle eher koordiniert und gezielt
+    sind, um zum einen hier eine gewisse Verunsicherung zu erzeugen, die auch eine
+    politische Destabilisierung verursachen kann und zum anderen aber auch austesten
+    kann, wie eigentlich Deutschland, Europa tatsächlich auf so eine Drohnen-Gefahren
+    vorbereitet ist und Wenn es dann wirklich mal langfristig zu einem Konflikt kommen
+    würde, würde uns das garantiert zum Nachteil gereichen.
+  collocation: eine Destabilisierung verursachen
+  source_session: shadow_sessions/2026-05-07-1050.md
+  created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-07-164
+  type: word
+  title: austesten
+  content: austesten
+  english: test out
+  transcript_sentence: Und dann gibt es aber noch diese relativ diffuse Gefahr, Es
+    ist ja schon offensichtlich, dass diese ganzen Vorfälle eher koordiniert und gezielt
+    sind, um zum einen hier eine gewisse Verunsicherung zu erzeugen, die auch eine
+    politische Destabilisierung verursachen kann und zum anderen aber auch austesten
+    kann, wie eigentlich Deutschland, Europa tatsächlich auf so eine Drohnen-Gefahren
+    vorbereitet ist und Wenn es dann wirklich mal langfristig zu einem Konflikt kommen
+    würde, würde uns das garantiert zum Nachteil gereichen.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-07-1050.md
+  created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-07-165
+  type: pattern
+  title: auf etw. vorbereitet sein
+  content: auf etw. vorbereitet sein
+  english: be prepared for something
+  transcript_sentence: Und dann gibt es aber noch diese relativ diffuse Gefahr, Es
+    ist ja schon offensichtlich, dass diese ganzen Vorfälle eher koordiniert und gezielt
+    sind, um zum einen hier eine gewisse Verunsicherung zu erzeugen, die auch eine
+    politische Destabilisierung verursachen kann und zum anderen aber auch austesten
+    kann, wie eigentlich Deutschland, Europa tatsächlich auf so eine Drohnen-Gefahren
+    vorbereitet ist und Wenn es dann wirklich mal langfristig zu einem Konflikt kommen
+    würde, würde uns das garantiert zum Nachteil gereichen.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-07-1050.md
+  created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-07-166
+  type: phrase
+  title: zum Nachteil gereichen
+  content: zum Nachteil gereichen
+  english: work to someone's disadvantage
+  transcript_sentence: Und dann gibt es aber noch diese relativ diffuse Gefahr, Es
+    ist ja schon offensichtlich, dass diese ganzen Vorfälle eher koordiniert und gezielt
+    sind, um zum einen hier eine gewisse Verunsicherung zu erzeugen, die auch eine
+    politische Destabilisierung verursachen kann und zum anderen aber auch austesten
+    kann, wie eigentlich Deutschland, Europa tatsächlich auf so eine Drohnen-Gefahren
+    vorbereitet ist und Wenn es dann wirklich mal langfristig zu einem Konflikt kommen
+    würde, würde uns das garantiert zum Nachteil gereichen.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-07-1050.md
+  created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-07-167
+  type: pattern
+  title: Wie sieht es denn aus, wenn ...?
+  content: Wie sieht es denn aus, wenn ...?
+  english: What would it look like if ...?
+  transcript_sentence: Wie sieht es denn aus, wenn da so ein ganzer Schwarm kommen
+    würde?
+  collocation: ''
+  source_session: shadow_sessions/2026-05-07-1050.md
+  created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-07-168
+  type: pattern
+  title: was das für ein(e) ... ist
+  content: was das für ein(e) ... ist
+  english: what kind of ... it is
+  transcript_sentence: Da kommt es auch darauf an, was das für eine Drohne ist und
+    wie groß der Schwarm ist und wie häufig das vorkommt.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-07-1050.md
+  created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-07-169
+  type: word
+  title: vorkommen
+  content: vorkommen
+  english: occur
+  transcript_sentence: Da kommt es auch darauf an, was das für eine Drohne ist und
+    wie groß der Schwarm ist und wie häufig das vorkommt.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-07-1050.md
+  created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-07-170
+  type: pattern
+  title: Das ist einmal passiert
+  content: Das ist einmal passiert
+  english: That happened once
+  transcript_sentence: Das ist ja zum Beispiel einmal passiert, als der Iran, ich
+    glaube, 200 Drohnen Richtung Israel geschickt hat.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-07-1050.md
+  created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-07-171
+  type: pattern
+  title: etw. Richtung ... schicken
+  content: etw. Richtung ... schicken
+  english: send something toward ...
+  transcript_sentence: Das ist ja zum Beispiel einmal passiert, als der Iran, ich
+    glaube, 200 Drohnen Richtung Israel geschickt hat.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-07-1050.md
+  created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-07-172
+  type: phrase
+  title: eine niedrige Hürde
+  content: eine niedrige Hürde
+  english: a low barrier
+  transcript_sentence: Das ist natürlich schon beängstigend und auch sehr gefährlich,
+    zumal diese Drohnentechnologie ja doch eine niedrige Hürde ist.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-07-1050.md
+  created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-07-173
+  type: phrase
+  title: etw. im Vorhinein verhindern
+  content: etw. im Vorhinein verhindern
+  english: prevent something in advance
+  transcript_sentence: Von daher würde ich sagen, das hängt da nicht nur von der Technologie
+    ab, sondern auch von den Sicherheitsbehörden, dass sie solche Vorhaben schon im
+    Vorhinein verhindern.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-07-1050.md
+  created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null

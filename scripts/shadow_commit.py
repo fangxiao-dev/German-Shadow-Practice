@@ -12,6 +12,11 @@ import sys
 import webbrowser
 import yaml
 
+try:
+    from scripts.shadow_index import build_asset_index, lookup_exact, write_asset_index
+except ModuleNotFoundError:
+    from shadow_index import build_asset_index, lookup_exact, write_asset_index
+
 
 DEFAULT_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DASHBOARD_PORT = 4173
@@ -37,10 +42,6 @@ def dump_yaml_list(path: Path, data: list[dict]) -> None:
         yaml.safe_dump(data, allow_unicode=True, sort_keys=False),
         encoding="utf-8",
     )
-
-
-def normalize_for_match(value: str) -> str:
-    return re.sub(r"\s+", " ", re.sub(r"[^\wäöüÄÖÜß]+", " ", value.casefold())).strip()
 
 
 def parse_session_file(path: Path) -> tuple[str, list[dict[str, str]]]:
@@ -247,7 +248,8 @@ def commit_session(
         ensure_reset_count(item)
 
     _, session_items = parse_session_file(session_path)
-    assets_by_target = {normalize_for_match(asset["content"]): asset for asset in assets}
+    asset_index = build_asset_index(assets, generated_at=committed_at)
+    assets_by_id = {asset["id"]: asset for asset in assets}
 
     added_count = 0
     reset_count = 0
@@ -255,8 +257,8 @@ def commit_session(
 
     for session_item in session_items:
         target = session_item["target"]
-        normalized_target = normalize_for_match(target)
-        existing_asset = assets_by_target.get(normalized_target)
+        exact_hits = lookup_exact(asset_index, target)
+        existing_asset = assets_by_id.get(exact_hits[0]["id"]) if exact_hits else None
 
         if existing_asset is not None:
             existing_asset["title"] = target
@@ -298,13 +300,15 @@ def commit_session(
             "mistake_note": None,
         }
         assets.append(new_asset)
-        assets_by_target[normalized_target] = new_asset
+        asset_index = build_asset_index(assets, generated_at=committed_at)
+        assets_by_id[new_asset["id"]] = new_asset
         state_by_id[new_asset["id"]] = sync_state_from_asset(new_asset)
         added_count += 1
 
     dump_yaml_list(assets_path, assets)
     ordered_state = [state_by_id[asset["id"]] for asset in assets]
     dump_yaml_list(state_path, ordered_state)
+    write_asset_index(root)
     append_commit_log(log_path, session_ref, committed_at, added_count, reset_count)
 
     if launch_dashboard:
