@@ -47,6 +47,7 @@ Use when the user asks for `$shadow-practice capture`, with or without an explic
 Reads:
 - A local transcript file, typically under `<project-root>\raw-transcripts\`
 - Optional existing local state for context only:
+  - `<project-root>\shadow_assets\asset_index.json`
   - `<project-root>\shadow_assets\assets.yaml`
   - `<project-root>\shadow_reviews\review_state.yaml`
 
@@ -73,6 +74,12 @@ Behavior:
 - Keep worthwhile recommendations visible in the session note so the user can prune them during review.
 - Use the same staged item fields in both `Must Keep Candidates` and `Recommendations`.
 - Use `collocation` or `collocations` only for subordinate wording that strengthens recall of the main target without becoming a separate target.
+- Before writing the session file, check staged targets against the generated durable index:
+  - Prefer `python <project-root>\scripts\shadow_lookup.py "<target>"` or the shared `scripts.shadow_index` helpers.
+  - Let the helper rebuild `<project-root>\shadow_assets\asset_index.json` from `assets.yaml` if the index is missing or corrupt.
+  - Treat exact hits against durable `content`, `title`, or non-empty `collocation` as `durable_hit` reset candidates.
+  - Use related hits only as short `Dry Run Notes`; do not mark them as reset candidates.
+  - Fall back to direct `assets.yaml` inspection only when the lookup helper is unavailable or fails.
 - Do not recommend:
   - speed/intensity modifiers or other disposable local variations that are not stable learning targets
   - near-duplicates of an already staged target unless the duplicate signal itself matters for later commit behavior

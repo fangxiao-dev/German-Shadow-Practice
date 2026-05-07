@@ -46,9 +46,9 @@ See source file: `raw-transcripts\260502.md`
 - Use the same item fields in both sections.
 - Include `raw`, `target`, `type`, `english`, and `transcript_sentence` on every staged item.
 - Use `collocation` only for subordinate wording that helps recall but should not become a separate target.
-- Use `durable_hit` when the staged `target` matches an existing durable asset after normalizing away non-core wording.
+- Use `durable_hit` when the staged `target` has an exact hit in the generated durable index after normalizing away non-core wording.
 - Non-core wording includes filler or discourse particles such as `eben`, `so`, `ja`, `doch`, `halt`, `mal`, `gerade`, `eigentlich`, and inflection or article noise when the same reusable target remains.
-- Before marking a `durable_hit`, extract the main reusable target and compare that core against durable asset `title` or `content`.
+- Before marking a `durable_hit`, extract the main reusable target and compare that core through `scripts\shadow_lookup.py` or `scripts.shadow_index` against durable asset `content`, `title`, and non-empty `collocation`.
 - Mention related but different constructions only in `Dry Run Notes`; do not mark them as reset candidates.
 - If no must_keep bullets are present, keep the section and say so explicitly.
 - If the source file has no `---` separator, treat the entire file as transcript text and note that in `Dry Run Notes`.
