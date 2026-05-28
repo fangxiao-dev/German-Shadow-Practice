@@ -79,3 +79,16 @@ Committed the reviewed items from `shadow_sessions/2026-05-02-1058.md` into the 
 Committed the reviewed items from `shadow_sessions/2026-05-07-1050.md` into the durable asset store.
 
 - Added 33 new assets with `status: new`
+
+## 2026-05-22 commit
+
+Committed the reviewed items from `shadow_sessions/2026-05-22-0923.md` into the durable asset store.
+
+- Added 10 new assets with `status: new`
+- Reset 2 existing assets to `new` after repeated capture hits
+
+## 2026-05-28 commit
+
+Committed the reviewed items from `shadow_sessions/2026-05-28-0958.md` into the durable asset store.
+
+- Added 14 new assets with `status: new`

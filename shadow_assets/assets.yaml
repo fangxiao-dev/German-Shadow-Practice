@@ -2514,15 +2514,15 @@
   title: Schaden anrichten
   content: Schaden anrichten
   english: cause damage
-  transcript_sentence: Wir haben ja auch gesehen, dass Küchenmesser und Autos auch
-    geeignet sind, um sehr großen Schaden anzurichten.
+  transcript_sentence: Da ist auch, ich glaube, von den 200 vielleicht eine angekommen
+    und hat Schaden gerichtet.
   collocation: ''
-  source_session: shadow_sessions/2026-05-07-1050.md
+  source_session: shadow_sessions/2026-05-22-0923.md
   created_at: '2026-05-07'
   status: new
   priority: normal
   review_count: 0
-  reset_count: 0
+  reset_count: 1
   last_reviewed_at: null
   mistake_note: null
 - id: a-2026-05-07-158
@@ -2545,16 +2545,16 @@
   title: von daher
   content: von daher
   english: therefore
-  transcript_sentence: Von daher würde ich sagen, das hängt da nicht nur von der Technologie
-    ab, sondern auch von den Sicherheitsbehörden, dass sie solche Vorhaben schon im
-    Vorhinein verhindern.
+  transcript_sentence: Von daher haben wir da noch sehr großen Nachholbedarf und es
+    braucht unbedingt günstige Systeme, die zuverlässig auch günstige Drohnen vom
+    Himmel holen können.
   collocation: ''
-  source_session: shadow_sessions/2026-05-07-1050.md
+  source_session: shadow_sessions/2026-05-22-0923.md
   created_at: '2026-05-07'
   status: new
   priority: normal
   review_count: 0
-  reset_count: 0
+  reset_count: 1
   last_reviewed_at: null
   mistake_note: null
 - id: a-2026-05-07-160
@@ -2803,6 +2803,392 @@
   collocation: ''
   source_session: shadow_sessions/2026-05-07-1050.md
   created_at: '2026-05-07'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-22-174
+  type: phrase
+  title: kurzfristige Lösung
+  content: kurzfristige Lösung
+  english: short-term solution
+  transcript_sentence: Das könnten wir also durchaus auch umsetzen, aber das ist nur
+    eine kurzfristige Lösung und eben auch nur bei langsamen Drohnen.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-22-0923.md
+  created_at: '2026-05-22'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-22-175
+  type: word
+  title: überfordern
+  content: überfordern
+  english: overwhelm
+  transcript_sentence: Das könnte dann doch unsere Fähigkeiten überfordern.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-22-0923.md
+  created_at: '2026-05-22'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-22-176
+  type: phrase
+  title: parallel dazu
+  content: parallel dazu
+  english: in parallel with that
+  transcript_sentence: Besonders, wenn parallel dazu auch noch mit Kampfflugzeugen
+    angegriffen wird, die ja auch noch bekämpft werden müssen.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-22-0923.md
+  created_at: '2026-05-22'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-22-177
+  type: word
+  title: Rakete
+  content: Rakete
+  english: missile
+  transcript_sentence: Diese Drohnen, die kosten 10, 20, vielleicht 50.000 Dollar
+    und wir schießen die teilweise mit zwei Millionen Euro teuren Raketen ab.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-22-0923.md
+  created_at: '2026-05-22'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-22-178
+  type: phrase
+  title: im Roten Meer
+  content: im Roten Meer
+  english: in the Red Sea
+  transcript_sentence: Das hat die Bundeswehr im Roten Meer gemacht.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-22-0923.md
+  created_at: '2026-05-22'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-22-179
+  type: phrase
+  title: auf lange Frist
+  content: auf lange Frist
+  english: in the long run
+  transcript_sentence: Und auf diese Weise würden natürlich unsere finanziellen Ressourcen
+    auf lange Frist einfach aufgebraucht werden und dann stehen wir auch blank da.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-22-0923.md
+  created_at: '2026-05-22'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-22-180
+  type: word
+  title: aufgebraucht
+  content: aufgebraucht
+  english: used up
+  transcript_sentence: Und auf diese Weise würden natürlich unsere finanziellen Ressourcen
+    auf lange Frist einfach aufgebraucht werden und dann stehen wir auch blank da.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-22-0923.md
+  created_at: '2026-05-22'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-22-181
+  type: word
+  title: Nachholbedarf
+  content: Nachholbedarf
+  english: need to catch up
+  transcript_sentence: Von daher haben wir da noch sehr großen Nachholbedarf und es
+    braucht unbedingt günstige Systeme, die zuverlässig auch günstige Drohnen vom
+    Himmel holen können.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-22-0923.md
+  created_at: '2026-05-22'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-22-182
+  type: phrase
+  title: blank dastehen
+  content: blank dastehen
+  english: be left with nothing
+  transcript_sentence: Und auf diese Weise würden natürlich unsere finanziellen Ressourcen
+    auf lange Frist einfach aufgebraucht werden und dann stehen wir auch blank da.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-22-0923.md
+  created_at: '2026-05-22'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-22-183
+  type: pattern
+  title: etw. vom Himmel holen
+  content: etw. vom Himmel holen
+  english: take something out of the sky
+  transcript_sentence: Von daher haben wir da noch sehr großen Nachholbedarf und es
+    braucht unbedingt günstige Systeme, die zuverlässig auch günstige Drohnen vom
+    Himmel holen können.
+  collocation: günstige Drohnen vom Himmel holen
+  source_session: shadow_sessions/2026-05-22-0923.md
+  created_at: '2026-05-22'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-28-184
+  type: word
+  title: Wettbewerb
+  content: Wettbewerb
+  english: competition
+  transcript_sentence: Ja, da besteht jetzt gerade ein großer Wettbewerb und unter
+    anderem auch unter den Startups.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-28-0958.md
+  created_at: '2026-05-28'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-28-185
+  type: word
+  title: Variante
+  content: Variante
+  english: variant
+  transcript_sentence: Es gibt auch relativ konventionelle Flugabwehrkanonen, wie
+    zum Beispiel den G-Part oder die neue Variante nennt sich Skyranger.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-28-0958.md
+  created_at: '2026-05-28'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-28-186
+  type: pattern
+  title: eine Möglichkeit wäre es
+  content: eine Möglichkeit wäre es
+  english: one possibility would be
+  transcript_sentence: Ja, eine Möglichkeit wäre es ja, dass der Staat und auch jetzt
+    so Start-ups wie ihr enger zusammenarbeitet.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-28-0958.md
+  created_at: '2026-05-28'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-28-187
+  type: pattern
+  title: das passiert auf jeden Fall schon
+  content: das passiert auf jeden Fall schon
+  english: that is definitely already happening
+  transcript_sentence: Also das passiert auf jeden Fall schon.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-28-0958.md
+  created_at: '2026-05-28'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-28-188
+  type: word
+  title: probeweise
+  content: probeweise
+  english: on a trial basis
+  transcript_sentence: Wir sehen auch, dass die Bundeswehr jetzt zum Beispiel einige
+    Systeme von Start-ups erstmal probeweise gekauft hat, um dann eben zu schauen,
+    ob sie die auch in größeren Mengen langfristig verwenden wollen.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-28-0958.md
+  created_at: '2026-05-28'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-28-189
+  type: word
+  title: sporadisch
+  content: sporadisch
+  english: sporadically
+  transcript_sentence: Das passiert aber meiner Meinung nach noch zu sporadisch und
+    auch ein bisschen zu spät, würde ich sagen.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-28-0958.md
+  created_at: '2026-05-28'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-28-190
+  type: phrase
+  title: auf jemanden zugehen
+  content: auf jemanden zugehen
+  english: approach someone
+  transcript_sentence: Und dann ist es aber eben auch nötig, dass die Bundeswehr tatsächlich
+    erprobt mit den Startups und auch offen auf die Startups zugeht und mit ihnen
+    zusammenarbeitet.
+  collocation: offen auf die Startups zugehen
+  source_session: shadow_sessions/2026-05-28-0958.md
+  created_at: '2026-05-28'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-28-191
+  type: word
+  title: allzu
+  content: allzu
+  english: too much
+  transcript_sentence: Also auf den Orthonormalverbraucher denke ich in den nächsten
+    fünf Jahren nicht allzu viel.
+  collocation: nicht allzu viel
+  source_session: shadow_sessions/2026-05-28-0958.md
+  created_at: '2026-05-28'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-28-192
+  type: phrase
+  title: sowas wie
+  content: sowas wie
+  english: something like
+  transcript_sentence: Man wird vielleicht sowas wie Drohnenliefer-Services in den
+    ländlichen Gebieten sehen.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-28-0958.md
+  created_at: '2026-05-28'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-28-193
+  type: pattern
+  title: es wird noch ein bisschen dauern, bis es soweit ist
+  content: es wird noch ein bisschen dauern, bis es soweit ist
+  english: it will still take a little while until that point
+  transcript_sentence: Ich denke, in Deutschland wird das noch ein bisschen dauern,
+    bis es soweit ist.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-28-0958.md
+  created_at: '2026-05-28'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-28-194
+  type: phrase
+  title: je nach
+  content: je nach
+  english: depending on
+  transcript_sentence: Da gibt es verschiedene Systeme, auch je nach Drohne, die da
+    kommen.
+  collocation: je nach Drohne
+  source_session: shadow_sessions/2026-05-28-0958.md
+  created_at: '2026-05-28'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-28-195
+  type: phrase
+  title: zum allergrößten Teil
+  content: zum allergrößten Teil
+  english: for the very largest part
+  transcript_sentence: Vor allen Dingen, wenn man sich jetzt anguckt, die großen Verteidigungshaushalte,
+    das geht zum allergrößten Teil eben direkt an die etablierten Rüstungskonzerne.
+  collocation: ''
+  source_session: shadow_sessions/2026-05-28-0958.md
+  created_at: '2026-05-28'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-28-196
+  type: word
+  title: abzweigen
+  content: abzweigen
+  english: divert
+  transcript_sentence: Wenn man davon nur einen ganz kleinen Teil an die Startups
+    abzweigen würde, könnte man dadurch, denke ich, deutlich mehr Werk generieren
+    als mit den etablierten Konzernen.
+  collocation: einen Teil an die Startups abzweigen
+  source_session: shadow_sessions/2026-05-28-0958.md
+  created_at: '2026-05-28'
+  status: new
+  priority: normal
+  review_count: 0
+  reset_count: 0
+  last_reviewed_at: null
+  mistake_note: null
+- id: a-2026-05-28-197
+  type: phrase
+  title: auf jemanden zukommen
+  content: auf jemanden zukommen
+  english: come toward someone; be ahead for someone
+  transcript_sentence: Was glaubst du denn wird so in der Drohnenindustrie in den
+    nächsten fünf Jahren auf uns zukommen?
+  collocation: in den nächsten fünf Jahren auf uns zukommen
+  source_session: shadow_sessions/2026-05-28-0958.md
+  created_at: '2026-05-28'
   status: new
   priority: normal
   review_count: 0

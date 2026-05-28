@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T11:11:35+02:00",
+  "generated_at": "2026-05-28T09:59:43+02:00",
   "source": "shadow_assets/assets.yaml",
   "exact": {
     "henne ei problem": [
@@ -602,6 +602,96 @@
     ],
     "etw im vorhinein verhindern": [
       "a-2026-05-07-173"
+    ],
+    "kurzfristige lösung": [
+      "a-2026-05-22-174"
+    ],
+    "überfordern": [
+      "a-2026-05-22-175"
+    ],
+    "parallel dazu": [
+      "a-2026-05-22-176"
+    ],
+    "rakete": [
+      "a-2026-05-22-177"
+    ],
+    "im roten meer": [
+      "a-2026-05-22-178"
+    ],
+    "auf lange frist": [
+      "a-2026-05-22-179"
+    ],
+    "aufgebraucht": [
+      "a-2026-05-22-180"
+    ],
+    "nachholbedarf": [
+      "a-2026-05-22-181"
+    ],
+    "blank dastehen": [
+      "a-2026-05-22-182"
+    ],
+    "etw vom himmel holen": [
+      "a-2026-05-22-183"
+    ],
+    "günstige drohnen vom himmel holen": [
+      "a-2026-05-22-183"
+    ],
+    "wettbewerb": [
+      "a-2026-05-28-184"
+    ],
+    "variante": [
+      "a-2026-05-28-185"
+    ],
+    "eine möglichkeit wäre es": [
+      "a-2026-05-28-186"
+    ],
+    "das passiert auf jeden fall schon": [
+      "a-2026-05-28-187"
+    ],
+    "probeweise": [
+      "a-2026-05-28-188"
+    ],
+    "sporadisch": [
+      "a-2026-05-28-189"
+    ],
+    "auf jemanden zugehen": [
+      "a-2026-05-28-190"
+    ],
+    "offen auf die startups zugehen": [
+      "a-2026-05-28-190"
+    ],
+    "allzu": [
+      "a-2026-05-28-191"
+    ],
+    "nicht allzu viel": [
+      "a-2026-05-28-191"
+    ],
+    "sowas wie": [
+      "a-2026-05-28-192"
+    ],
+    "es wird noch ein bisschen dauern bis es soweit ist": [
+      "a-2026-05-28-193"
+    ],
+    "je nach": [
+      "a-2026-05-28-194"
+    ],
+    "je nach drohne": [
+      "a-2026-05-28-194"
+    ],
+    "zum allergrößten teil": [
+      "a-2026-05-28-195"
+    ],
+    "abzweigen": [
+      "a-2026-05-28-196"
+    ],
+    "einen teil an die startups abzweigen": [
+      "a-2026-05-28-196"
+    ],
+    "auf jemanden zukommen": [
+      "a-2026-05-28-197"
+    ],
+    "in den nächsten fünf jahren auf uns zukommen": [
+      "a-2026-05-28-197"
     ]
   },
   "tokens": {
@@ -666,7 +756,8 @@
       "a-2026-04-29-089",
       "a-2026-04-30-105",
       "a-2026-05-02-138",
-      "a-2026-05-07-167"
+      "a-2026-05-07-167",
+      "a-2026-05-28-192"
     ],
     "steht": [
       "a-2026-04-13-011",
@@ -680,7 +771,8 @@
     ],
     "dazu": [
       "a-2026-04-13-011",
-      "a-2026-05-01-122"
+      "a-2026-05-01-122",
+      "a-2026-05-22-176"
     ],
     "wie steht": [
       "a-2026-04-13-011",
@@ -814,7 +906,8 @@
     ],
     "zum": [
       "a-2026-04-13-023",
-      "a-2026-05-07-166"
+      "a-2026-05-07-166",
+      "a-2026-05-28-195"
     ],
     "ermöglichen": [
       "a-2026-04-13-024"
@@ -1076,7 +1169,8 @@
     ],
     "bisschen": [
       "a-2026-04-21-057",
-      "a-2026-04-21-067"
+      "a-2026-04-21-067",
+      "a-2026-05-28-193"
     ],
     "zukunft": [
       "a-2026-04-21-057"
@@ -1208,7 +1302,8 @@
       "a-2026-04-29-084"
     ],
     "sowas": [
-      "a-2026-04-26-071"
+      "a-2026-04-26-071",
+      "a-2026-05-28-192"
     ],
     "denn": [
       "a-2026-04-26-071",
@@ -1400,7 +1495,8 @@
       "a-2026-04-30-092"
     ],
     "noch": [
-      "a-2026-04-30-092"
+      "a-2026-04-30-092",
+      "a-2026-05-28-193"
     ],
     "tun": [
       "a-2026-04-30-092"
@@ -1513,7 +1609,8 @@
       "a-2026-04-30-102"
     ],
     "wird": [
-      "a-2026-04-30-102"
+      "a-2026-04-30-102",
+      "a-2026-05-28-193"
     ],
     "zugeteilt": [
       "a-2026-04-30-102"
@@ -1620,7 +1717,8 @@
     ],
     "drohnen": [
       "a-2026-05-01-113",
-      "a-2026-05-01-117"
+      "a-2026-05-01-117",
+      "a-2026-05-22-183"
     ],
     "drohnen erfassen": [
       "a-2026-05-01-113"
@@ -1666,7 +1764,8 @@
     ],
     "möglichkeit": [
       "a-2026-05-01-118",
-      "a-2026-05-01-126"
+      "a-2026-05-01-126",
+      "a-2026-05-28-186"
     ],
     "signal": [
       "a-2026-05-01-119"
@@ -1699,7 +1798,8 @@
       "a-2026-05-01-121"
     ],
     "drohne": [
-      "a-2026-05-01-121"
+      "a-2026-05-01-121",
+      "a-2026-05-28-194"
     ],
     "gewehr drohne": [
       "a-2026-05-01-121"
@@ -2084,7 +2184,8 @@
       "a-2026-05-07-170"
     ],
     "passiert": [
-      "a-2026-05-07-170"
+      "a-2026-05-07-170",
+      "a-2026-05-28-187"
     ],
     "einmal passiert": [
       "a-2026-05-07-170"
@@ -2115,6 +2216,243 @@
     ],
     "vorhinein verhindern": [
       "a-2026-05-07-173"
+    ],
+    "kurzfristige": [
+      "a-2026-05-22-174"
+    ],
+    "lösung": [
+      "a-2026-05-22-174"
+    ],
+    "kurzfristige lösung": [
+      "a-2026-05-22-174"
+    ],
+    "überfordern": [
+      "a-2026-05-22-175"
+    ],
+    "parallel": [
+      "a-2026-05-22-176"
+    ],
+    "parallel dazu": [
+      "a-2026-05-22-176"
+    ],
+    "rakete": [
+      "a-2026-05-22-177"
+    ],
+    "roten": [
+      "a-2026-05-22-178"
+    ],
+    "meer": [
+      "a-2026-05-22-178"
+    ],
+    "roten meer": [
+      "a-2026-05-22-178"
+    ],
+    "lange": [
+      "a-2026-05-22-179"
+    ],
+    "frist": [
+      "a-2026-05-22-179"
+    ],
+    "lange frist": [
+      "a-2026-05-22-179"
+    ],
+    "aufgebraucht": [
+      "a-2026-05-22-180"
+    ],
+    "nachholbedarf": [
+      "a-2026-05-22-181"
+    ],
+    "blank": [
+      "a-2026-05-22-182"
+    ],
+    "dastehen": [
+      "a-2026-05-22-182"
+    ],
+    "blank dastehen": [
+      "a-2026-05-22-182"
+    ],
+    "vom": [
+      "a-2026-05-22-183"
+    ],
+    "himmel": [
+      "a-2026-05-22-183"
+    ],
+    "holen": [
+      "a-2026-05-22-183"
+    ],
+    "vom himmel": [
+      "a-2026-05-22-183"
+    ],
+    "himmel holen": [
+      "a-2026-05-22-183"
+    ],
+    "günstige": [
+      "a-2026-05-22-183"
+    ],
+    "günstige drohnen": [
+      "a-2026-05-22-183"
+    ],
+    "drohnen vom": [
+      "a-2026-05-22-183"
+    ],
+    "wettbewerb": [
+      "a-2026-05-28-184"
+    ],
+    "variante": [
+      "a-2026-05-28-185"
+    ],
+    "wäre": [
+      "a-2026-05-28-186"
+    ],
+    "möglichkeit wäre": [
+      "a-2026-05-28-186"
+    ],
+    "jeden": [
+      "a-2026-05-28-187"
+    ],
+    "fall": [
+      "a-2026-05-28-187"
+    ],
+    "schon": [
+      "a-2026-05-28-187"
+    ],
+    "passiert jeden": [
+      "a-2026-05-28-187"
+    ],
+    "jeden fall": [
+      "a-2026-05-28-187"
+    ],
+    "fall schon": [
+      "a-2026-05-28-187"
+    ],
+    "probeweise": [
+      "a-2026-05-28-188"
+    ],
+    "sporadisch": [
+      "a-2026-05-28-189"
+    ],
+    "jemanden": [
+      "a-2026-05-28-190",
+      "a-2026-05-28-197"
+    ],
+    "zugehen": [
+      "a-2026-05-28-190"
+    ],
+    "jemanden zugehen": [
+      "a-2026-05-28-190"
+    ],
+    "offen": [
+      "a-2026-05-28-190"
+    ],
+    "startups": [
+      "a-2026-05-28-190",
+      "a-2026-05-28-196"
+    ],
+    "offen startups": [
+      "a-2026-05-28-190"
+    ],
+    "startups zugehen": [
+      "a-2026-05-28-190"
+    ],
+    "allzu": [
+      "a-2026-05-28-191"
+    ],
+    "viel": [
+      "a-2026-05-28-191"
+    ],
+    "allzu viel": [
+      "a-2026-05-28-191"
+    ],
+    "sowas wie": [
+      "a-2026-05-28-192"
+    ],
+    "dauern": [
+      "a-2026-05-28-193"
+    ],
+    "bis": [
+      "a-2026-05-28-193"
+    ],
+    "soweit": [
+      "a-2026-05-28-193"
+    ],
+    "wird noch": [
+      "a-2026-05-28-193"
+    ],
+    "noch bisschen": [
+      "a-2026-05-28-193"
+    ],
+    "bisschen dauern": [
+      "a-2026-05-28-193"
+    ],
+    "dauern bis": [
+      "a-2026-05-28-193"
+    ],
+    "bis soweit": [
+      "a-2026-05-28-193"
+    ],
+    "je": [
+      "a-2026-05-28-194"
+    ],
+    "nach": [
+      "a-2026-05-28-194"
+    ],
+    "je nach": [
+      "a-2026-05-28-194"
+    ],
+    "nach drohne": [
+      "a-2026-05-28-194"
+    ],
+    "allergrößten": [
+      "a-2026-05-28-195"
+    ],
+    "teil": [
+      "a-2026-05-28-195",
+      "a-2026-05-28-196"
+    ],
+    "zum allergrößten": [
+      "a-2026-05-28-195"
+    ],
+    "allergrößten teil": [
+      "a-2026-05-28-195"
+    ],
+    "abzweigen": [
+      "a-2026-05-28-196"
+    ],
+    "teil startups": [
+      "a-2026-05-28-196"
+    ],
+    "startups abzweigen": [
+      "a-2026-05-28-196"
+    ],
+    "zukommen": [
+      "a-2026-05-28-197"
+    ],
+    "jemanden zukommen": [
+      "a-2026-05-28-197"
+    ],
+    "nächsten": [
+      "a-2026-05-28-197"
+    ],
+    "fünf": [
+      "a-2026-05-28-197"
+    ],
+    "jahren": [
+      "a-2026-05-28-197"
+    ],
+    "uns": [
+      "a-2026-05-28-197"
+    ],
+    "nächsten fünf": [
+      "a-2026-05-28-197"
+    ],
+    "fünf jahren": [
+      "a-2026-05-28-197"
+    ],
+    "jahren uns": [
+      "a-2026-05-28-197"
+    ],
+    "uns zukommen": [
+      "a-2026-05-28-197"
     ]
   },
   "items": {
@@ -3843,7 +4181,7 @@
       "collocation": "",
       "status": "new",
       "priority": "normal",
-      "reset_count": 0
+      "reset_count": 1
     },
     "a-2026-05-07-158": {
       "id": "a-2026-05-07-158",
@@ -3865,7 +4203,7 @@
       "collocation": "",
       "status": "new",
       "priority": "normal",
-      "reset_count": 0
+      "reset_count": 1
     },
     "a-2026-05-07-160": {
       "id": "a-2026-05-07-160",
@@ -4017,6 +4355,270 @@
       "content": "etw. im Vorhinein verhindern",
       "english": "prevent something in advance",
       "collocation": "",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-05-22-174": {
+      "id": "a-2026-05-22-174",
+      "type": "phrase",
+      "title": "kurzfristige Lösung",
+      "content": "kurzfristige Lösung",
+      "english": "short-term solution",
+      "collocation": "",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-05-22-175": {
+      "id": "a-2026-05-22-175",
+      "type": "word",
+      "title": "überfordern",
+      "content": "überfordern",
+      "english": "overwhelm",
+      "collocation": "",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-05-22-176": {
+      "id": "a-2026-05-22-176",
+      "type": "phrase",
+      "title": "parallel dazu",
+      "content": "parallel dazu",
+      "english": "in parallel with that",
+      "collocation": "",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-05-22-177": {
+      "id": "a-2026-05-22-177",
+      "type": "word",
+      "title": "Rakete",
+      "content": "Rakete",
+      "english": "missile",
+      "collocation": "",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-05-22-178": {
+      "id": "a-2026-05-22-178",
+      "type": "phrase",
+      "title": "im Roten Meer",
+      "content": "im Roten Meer",
+      "english": "in the Red Sea",
+      "collocation": "",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-05-22-179": {
+      "id": "a-2026-05-22-179",
+      "type": "phrase",
+      "title": "auf lange Frist",
+      "content": "auf lange Frist",
+      "english": "in the long run",
+      "collocation": "",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-05-22-180": {
+      "id": "a-2026-05-22-180",
+      "type": "word",
+      "title": "aufgebraucht",
+      "content": "aufgebraucht",
+      "english": "used up",
+      "collocation": "",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-05-22-181": {
+      "id": "a-2026-05-22-181",
+      "type": "word",
+      "title": "Nachholbedarf",
+      "content": "Nachholbedarf",
+      "english": "need to catch up",
+      "collocation": "",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-05-22-182": {
+      "id": "a-2026-05-22-182",
+      "type": "phrase",
+      "title": "blank dastehen",
+      "content": "blank dastehen",
+      "english": "be left with nothing",
+      "collocation": "",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-05-22-183": {
+      "id": "a-2026-05-22-183",
+      "type": "pattern",
+      "title": "etw. vom Himmel holen",
+      "content": "etw. vom Himmel holen",
+      "english": "take something out of the sky",
+      "collocation": "günstige Drohnen vom Himmel holen",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-05-28-184": {
+      "id": "a-2026-05-28-184",
+      "type": "word",
+      "title": "Wettbewerb",
+      "content": "Wettbewerb",
+      "english": "competition",
+      "collocation": "",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-05-28-185": {
+      "id": "a-2026-05-28-185",
+      "type": "word",
+      "title": "Variante",
+      "content": "Variante",
+      "english": "variant",
+      "collocation": "",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-05-28-186": {
+      "id": "a-2026-05-28-186",
+      "type": "pattern",
+      "title": "eine Möglichkeit wäre es",
+      "content": "eine Möglichkeit wäre es",
+      "english": "one possibility would be",
+      "collocation": "",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-05-28-187": {
+      "id": "a-2026-05-28-187",
+      "type": "pattern",
+      "title": "das passiert auf jeden Fall schon",
+      "content": "das passiert auf jeden Fall schon",
+      "english": "that is definitely already happening",
+      "collocation": "",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-05-28-188": {
+      "id": "a-2026-05-28-188",
+      "type": "word",
+      "title": "probeweise",
+      "content": "probeweise",
+      "english": "on a trial basis",
+      "collocation": "",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-05-28-189": {
+      "id": "a-2026-05-28-189",
+      "type": "word",
+      "title": "sporadisch",
+      "content": "sporadisch",
+      "english": "sporadically",
+      "collocation": "",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-05-28-190": {
+      "id": "a-2026-05-28-190",
+      "type": "phrase",
+      "title": "auf jemanden zugehen",
+      "content": "auf jemanden zugehen",
+      "english": "approach someone",
+      "collocation": "offen auf die Startups zugehen",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-05-28-191": {
+      "id": "a-2026-05-28-191",
+      "type": "word",
+      "title": "allzu",
+      "content": "allzu",
+      "english": "too much",
+      "collocation": "nicht allzu viel",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-05-28-192": {
+      "id": "a-2026-05-28-192",
+      "type": "phrase",
+      "title": "sowas wie",
+      "content": "sowas wie",
+      "english": "something like",
+      "collocation": "",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-05-28-193": {
+      "id": "a-2026-05-28-193",
+      "type": "pattern",
+      "title": "es wird noch ein bisschen dauern, bis es soweit ist",
+      "content": "es wird noch ein bisschen dauern, bis es soweit ist",
+      "english": "it will still take a little while until that point",
+      "collocation": "",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-05-28-194": {
+      "id": "a-2026-05-28-194",
+      "type": "phrase",
+      "title": "je nach",
+      "content": "je nach",
+      "english": "depending on",
+      "collocation": "je nach Drohne",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-05-28-195": {
+      "id": "a-2026-05-28-195",
+      "type": "phrase",
+      "title": "zum allergrößten Teil",
+      "content": "zum allergrößten Teil",
+      "english": "for the very largest part",
+      "collocation": "",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-05-28-196": {
+      "id": "a-2026-05-28-196",
+      "type": "word",
+      "title": "abzweigen",
+      "content": "abzweigen",
+      "english": "divert",
+      "collocation": "einen Teil an die Startups abzweigen",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-05-28-197": {
+      "id": "a-2026-05-28-197",
+      "type": "phrase",
+      "title": "auf jemanden zukommen",
+      "content": "auf jemanden zukommen",
+      "english": "come toward someone; be ahead for someone",
+      "collocation": "in den nächsten fünf Jahren auf uns zukommen",
       "status": "new",
       "priority": "normal",
       "reset_count": 0
