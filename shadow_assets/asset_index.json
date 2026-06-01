@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T09:59:43+02:00",
+  "generated_at": "2026-06-01T08:26:56+02:00",
   "source": "shadow_assets/assets.yaml",
   "exact": {
     "henne ei problem": [
@@ -692,6 +692,42 @@
     ],
     "in den nächsten fünf jahren auf uns zukommen": [
       "a-2026-05-28-197"
+    ],
+    "niedrigschwellig": [
+      "a-2026-06-01-198"
+    ],
+    "einen gewissen stand haben": [
+      "a-2026-06-01-199"
+    ],
+    "im großen ausmaß": [
+      "a-2026-06-01-200"
+    ],
+    "vor allem": [
+      "a-2026-06-01-201"
+    ],
+    "im kopf": [
+      "a-2026-06-01-202"
+    ],
+    "etw positiv belegen": [
+      "a-2026-06-01-203"
+    ],
+    "gedanken zum thema": [
+      "a-2026-06-01-204"
+    ],
+    "gelingen": [
+      "a-2026-06-01-205"
+    ],
+    "im zusammenhang mit": [
+      "a-2026-06-01-206"
+    ],
+    "einen einblick in die welt geben": [
+      "a-2026-06-01-207"
+    ],
+    "sich zurückhalten": [
+      "a-2026-06-01-208"
+    ],
+    "positiven einfluss auf etw haben": [
+      "a-2026-06-01-209"
     ]
   },
   "tokens": {
@@ -714,7 +750,8 @@
       "a-2026-04-13-002"
     ],
     "gewissen": [
-      "a-2026-04-13-003"
+      "a-2026-04-13-003",
+      "a-2026-06-01-199"
     ],
     "nachweisen": [
       "a-2026-04-13-004"
@@ -907,7 +944,8 @@
     "zum": [
       "a-2026-04-13-023",
       "a-2026-05-07-166",
-      "a-2026-05-28-195"
+      "a-2026-05-28-195",
+      "a-2026-06-01-204"
     ],
     "ermöglichen": [
       "a-2026-04-13-024"
@@ -1983,7 +2021,9 @@
     ],
     "haben": [
       "a-2026-05-02-140",
-      "a-2026-05-07-151"
+      "a-2026-05-07-151",
+      "a-2026-06-01-199",
+      "a-2026-06-01-209"
     ],
     "schwierigkeit haben": [
       "a-2026-05-02-140"
@@ -2453,6 +2493,96 @@
     ],
     "uns zukommen": [
       "a-2026-05-28-197"
+    ],
+    "niedrigschwellig": [
+      "a-2026-06-01-198"
+    ],
+    "stand": [
+      "a-2026-06-01-199"
+    ],
+    "gewissen stand": [
+      "a-2026-06-01-199"
+    ],
+    "stand haben": [
+      "a-2026-06-01-199"
+    ],
+    "großen": [
+      "a-2026-06-01-200"
+    ],
+    "ausmaß": [
+      "a-2026-06-01-200"
+    ],
+    "großen ausmaß": [
+      "a-2026-06-01-200"
+    ],
+    "vor": [
+      "a-2026-06-01-201"
+    ],
+    "allem": [
+      "a-2026-06-01-201"
+    ],
+    "vor allem": [
+      "a-2026-06-01-201"
+    ],
+    "kopf": [
+      "a-2026-06-01-202"
+    ],
+    "positiv": [
+      "a-2026-06-01-203"
+    ],
+    "belegen": [
+      "a-2026-06-01-203"
+    ],
+    "positiv belegen": [
+      "a-2026-06-01-203"
+    ],
+    "gedanken": [
+      "a-2026-06-01-204"
+    ],
+    "thema": [
+      "a-2026-06-01-204"
+    ],
+    "gedanken zum": [
+      "a-2026-06-01-204"
+    ],
+    "zum thema": [
+      "a-2026-06-01-204"
+    ],
+    "gelingen": [
+      "a-2026-06-01-205"
+    ],
+    "zusammenhang": [
+      "a-2026-06-01-206"
+    ],
+    "einblick": [
+      "a-2026-06-01-207"
+    ],
+    "welt": [
+      "a-2026-06-01-207"
+    ],
+    "geben": [
+      "a-2026-06-01-207"
+    ],
+    "einblick welt": [
+      "a-2026-06-01-207"
+    ],
+    "welt geben": [
+      "a-2026-06-01-207"
+    ],
+    "zurückhalten": [
+      "a-2026-06-01-208"
+    ],
+    "positiven": [
+      "a-2026-06-01-209"
+    ],
+    "einfluss": [
+      "a-2026-06-01-209"
+    ],
+    "positiven einfluss": [
+      "a-2026-06-01-209"
+    ],
+    "einfluss haben": [
+      "a-2026-06-01-209"
     ]
   },
   "items": {
@@ -4619,6 +4749,138 @@
       "content": "auf jemanden zukommen",
       "english": "come toward someone; be ahead for someone",
       "collocation": "in den nächsten fünf Jahren auf uns zukommen",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-06-01-198": {
+      "id": "a-2026-06-01-198",
+      "type": "word",
+      "title": "niedrigschwellig",
+      "content": "niedrigschwellig",
+      "english": "low-threshold, easy-access",
+      "collocation": "",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-06-01-199": {
+      "id": "a-2026-06-01-199",
+      "type": "phrase",
+      "title": "einen gewissen Stand haben",
+      "content": "einen gewissen Stand haben",
+      "english": "to already have reached a certain level",
+      "collocation": "",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-06-01-200": {
+      "id": "a-2026-06-01-200",
+      "type": "phrase",
+      "title": "im großen Ausmaß",
+      "content": "im großen Ausmaß",
+      "english": "on a large scale",
+      "collocation": "",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-06-01-201": {
+      "id": "a-2026-06-01-201",
+      "type": "phrase",
+      "title": "vor allem",
+      "content": "vor allem",
+      "english": "above all, especially",
+      "collocation": "",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-06-01-202": {
+      "id": "a-2026-06-01-202",
+      "type": "phrase",
+      "title": "im Kopf",
+      "content": "im Kopf",
+      "english": "in people's minds",
+      "collocation": "",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-06-01-203": {
+      "id": "a-2026-06-01-203",
+      "type": "phrase",
+      "title": "etw. positiv belegen",
+      "content": "etw. positiv belegen",
+      "english": "to give something a positive association",
+      "collocation": "",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-06-01-204": {
+      "id": "a-2026-06-01-204",
+      "type": "phrase",
+      "title": "Gedanken zum Thema",
+      "content": "Gedanken zum Thema",
+      "english": "thoughts on the topic",
+      "collocation": "",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-06-01-205": {
+      "id": "a-2026-06-01-205",
+      "type": "word",
+      "title": "gelingen",
+      "content": "gelingen",
+      "english": "to succeed, to work out",
+      "collocation": "",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-06-01-206": {
+      "id": "a-2026-06-01-206",
+      "type": "phrase",
+      "title": "im Zusammenhang mit",
+      "content": "im Zusammenhang mit",
+      "english": "in connection with",
+      "collocation": "",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-06-01-207": {
+      "id": "a-2026-06-01-207",
+      "type": "phrase",
+      "title": "einen Einblick in die Welt geben",
+      "content": "einen Einblick in die Welt geben",
+      "english": "to give an insight into the world of something",
+      "collocation": "",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-06-01-208": {
+      "id": "a-2026-06-01-208",
+      "type": "phrase",
+      "title": "sich zurückhalten",
+      "content": "sich zurückhalten",
+      "english": "to hold back",
+      "collocation": "",
+      "status": "new",
+      "priority": "normal",
+      "reset_count": 0
+    },
+    "a-2026-06-01-209": {
+      "id": "a-2026-06-01-209",
+      "type": "phrase",
+      "title": "positiven Einfluss auf etw. haben",
+      "content": "positiven Einfluss auf etw. haben",
+      "english": "to have a positive impact on something",
+      "collocation": "",
       "status": "new",
       "priority": "normal",
       "reset_count": 0
